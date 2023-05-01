@@ -5,7 +5,7 @@ content:
   title: "Contact me now!"
   text: "First 20 gets free service. Currently 8/20 filled up"
 
-  image: "images/services-web-development.png"
+  image: "images/contact-me.jpg"
   button:
     label: "Let's talk"
     url: "#"

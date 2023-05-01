@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ with .Site.Data.about_me.hero }}{{ partial "sections/hero.html" . }}{{ end }}
+  {{ with .Site.Data.about_me.hero }}{{ partial "sections/hero_about_me.html" . }}{{ end }}
   {{ with .Site.Data.about_me.brands }}{{ partial "sections/brands.html" . }}{{ end }}
   {{ with .Site.Data.about_me.portfolio }}{{ partial "sections/portfolio_non_alternating.html" . }}{{ end }}
   {{ with .Site.Data.about_me.services }}{{ partial "sections/services.html" . }}{{ end }}
