@@ -1,0 +1,3 @@
+{{ define "main" }}
+  {{ with .Site.Data.message_me.cta }}{{ partial "sections/message_me.html" . }}{{ end }}
+{{ end }}

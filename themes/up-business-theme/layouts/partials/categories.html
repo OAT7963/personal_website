@@ -1,0 +1,14 @@
+<div class="row justify-content-center categories">
+  <div class="col-12 text-center">
+    <!-- Add the following code to display the title of the page -->
+    {{ with .Title }}
+    <h2 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h2>
+    {{ end }}
+    <!-- Add the following code to generate the category list -->
+    <ul class="list-inline">
+      {{ range .Site.Taxonomies.categories }}
+        <li class="list-inline-item"><a href="{{ $.Site.BaseURL }}/{{ .Page.RelPermalink }}" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2">{{ .Page.Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

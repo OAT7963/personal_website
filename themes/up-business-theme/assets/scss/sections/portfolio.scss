@@ -1,0 +1,14 @@
+.section.portfolio {
+  .portfolio-feature:nth-child(odd):not(.portfolio-feature-non-alternating) {
+    @media (min-width: 1200px) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+
+.section.portfolio {
+  .portfolio-feature-non-alternating {
+    /* No need for additional styles here, as the layout is the default behavior */
+  }
+}

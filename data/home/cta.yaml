@@ -1,0 +1,11 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Contact me now!"
+  text: "First 20 gets free service. Currently 8/20 filled up"
+
+  image: "images/services-web-development.png"
+  button:
+    label: "Let's talk"
+    url: "#"
