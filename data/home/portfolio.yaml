@@ -2,7 +2,7 @@ enabled: true
 id: "portfolio"
 
 content:
-  - image: "images/seed.png"
+  - image: "images/2.png"
     pretitle: "Career"
     title: "Discover Your Career Path"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
@@ -14,7 +14,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/growing-plant.png"
+  - image: "images/3.png"
     pretitle: "Interview"
     title: "Build Your Professional Brand"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
@@ -26,7 +26,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/fully-grown-tree.png"
+  - image: "images/4.png"
     pretitle: "Portfolio Service"
     title: "Assisted Learning and Support"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
@@ -39,7 +39,7 @@ content:
         url: "#"
 
 
-  - image: "images/fully-grown-tree.png"
+  - image: "images/5.png"
     pretitle: "Portfolio Service"
     title: "Gain Experience and Skills"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
@@ -51,7 +51,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/fully-grown-tree.png"
+  - image: "images/6.png"
     pretitle: "Portfolio Service"
     title: "Ace Your Interviews"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
