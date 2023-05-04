@@ -4,7 +4,7 @@ id: "portfolio"
 content:
   - image: "images/seed.png"
     pretitle: "Career"
-    title: "Get your Projects started"
+    title: "Discover Your Career Path"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
@@ -16,7 +16,7 @@ content:
 
   - image: "images/growing-plant.png"
     pretitle: "Interview"
-    title: "how to be confident in Interviews"
+    title: "Build Your Professional Brand"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
@@ -28,7 +28,32 @@ content:
 
   - image: "images/fully-grown-tree.png"
     pretitle: "Portfolio Service"
-    title: "Assisted Learning with me"
+    title: "Assisted Learning and Support"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+
+  - image: "images/fully-grown-tree.png"
+    pretitle: "Portfolio Service"
+    title: "Gain Experience and Skills"
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/fully-grown-tree.png"
+    pretitle: "Portfolio Service"
+    title: "Ace Your Interviews"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 

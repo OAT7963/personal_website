@@ -4,8 +4,11 @@ id: "portfolio_non_alternating"
 content:
   - image: "images/portfolio-ecommerce.png"
     pretitle: "2008 - 2012"
-    title: "Finding Career Purpose during High School"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    title: "Navigating High School: Discovering Career Purpose"
+    text: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Quisque sed euismod quis sit gravida pharetra sit. 
+      Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipis
 
     buttons: 
       - label: "See live"
@@ -16,7 +19,7 @@ content:
 
   - image: "images/portfolio-ecommerce.png"
     pretitle: "2013 - 2017"
-    title: "Finding Interest after SPM - Feeling Lost"
+    title: "Post-SPM Exploration: Overcoming Uncertainty"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
@@ -28,7 +31,7 @@ content:
 
   - image: "images/portfolio-ecommerce.png"
     pretitle: "2019 - 2020"
-    title: "jumping between degrees, finally completing Env Sci"
+    title: "Degree Hopping to Success: Environmental Science Journey"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
