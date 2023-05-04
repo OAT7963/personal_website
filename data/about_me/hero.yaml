@@ -3,13 +3,31 @@ id: "hero"
 
 content:
   title: "Unlock Your Potential: Choose My Expertise for Your Early Career Success"
-  text: "Throughout my educational journey, my interests have spanned various fields. In high school, I was drawn to law, architecture, and engineering, largely influenced by public opinion at the time. Upon completing my SPM, I developed a strong affinity for Chemistry, which led me to apply to Sunway University, where I chose a blend of science and business subjects. After attending an accounting class, I realized it wasn’t for me. Consequently, halfway through the course, I transitioned to the Foundation in Science program at Heriot Watt University. From there, my academic path took me through Actuarial Science, followed by two years of Mechanical Engineering, and finally to Environmental Science, where I completed my degree. During the pandemic, I took advantage of the time to enhance my data skills."
+  text: "
+  
+          Throughout my educational and personal journey, my interests spanned multiple fields (Contemporary dance, Law, Engineering and Science). 
+          
+          
+          In high school, I was drawn to law, architecture, and engineering, largely influenced by public opinion at the time. Upon completing my SPM, I developed a strong affinity for Chemistry, which led me to apply to Sunway University. 
+          
+          
+          In college is where I chose a blend of science and business subjects. After attending an accounting class, I realized it wasn’t for me. As a result, halfway through the course, I transitioned to the Foundation in Science program at Heriot Watt University. 
+  
+
+          From there, my academic path took me through Actuarial Science, followed by two years of Mechanical Engineering, and finally to Environmental Science, where I finally completed my degree. 
+          
+          
+          
+          As I neared completion of my Environmental Science degree, I recognized the challenges of the job market in this field. Consequently, during the pandemic, I focused on enhancing my data skills to better prepare myself for this competitive industry.
+          
+          
+          Here's how I did it."
 
   buttonPrimary:
-    label: "About Me"
+    label: "My Journey"
     url: "#"
 
   buttonSecondary:
-    label: "Let's talk"
+    label: "Have a Conversation with me"
     url: ""
 
