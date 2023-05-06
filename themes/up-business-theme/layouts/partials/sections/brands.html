@@ -5,6 +5,21 @@
   }
 </style>
 
+<!-- Add custom CSS class for the arrow image -->
+<style>
+  .arrow-image {
+    width: 100%;
+  }
+
+  /* Add media query for smaller screens */
+  @media (max-width: 767px) {
+    .arrow-image {
+      display: none; /* Hide the arrow image on smaller screens */
+    }
+  }
+</style>
+
+
 
 <section class="section brands py-5">
   <div class="container">
@@ -28,7 +43,7 @@
       </div>
       {{ if lt $index 3 }} <!-- Add arrow only after the first and second images -->
       <div class="col-1 text-center align-self-center">
-        <img src="/images/arrow.png" alt="Arrow">
+        <img class="arrow-image" src="/images/arrow.png" alt="Arrow"> <!-- Add arrow-image class -->
       </div>
       {{ end }}
       {{ end }}
