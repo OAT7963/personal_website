@@ -561,9 +561,9 @@ if (!doNotTrack) {
 </section>
 
   
-  
-<section class="section cta py-5">
+  <section class="section cta py-5">
   <div class="container">
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){displayThankYouMessage();}"></iframe>
     <div class="row justify-content-center">
       <div class="col-12 col-xl-6">
         
@@ -575,19 +575,14 @@ if (!doNotTrack) {
     <div class="row justify-content-center">
       <div class="col-12 col-xl-6 text-center">
         
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/contact-me.gif" alt="images/contact-me.gif" width="660" height="500">
 
 
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-6 text-center">
-        
       </div>
     </div>
     <div class="row justify-content-center mt-4">
       <div class="col-12 col-xl-6">
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSeI3b2cjeC3L_pUqKD0EWcIbAQCipfRh9zaim4C1QhjM2Joxg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+        <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeI3b2cjeC3L_pUqKD0EWcIbAQCipfRh9zaim4C1QhjM2Joxg/formResponse" method="post" target="hidden_iframe">
           <div class="form-group">
             <label for="email">Email address:</label>
             <input type="email" class="form-control" id="email" name="entry.996740428" placeholder="Enter your email address" required>
@@ -606,10 +601,38 @@ if (!doNotTrack) {
           </div>
           <button type="submit" class="btn btn-primary mt-3">Submit</button>
         </form>
+        <div id="thank-you-message" class="mt-3" style="display: none;">
+          <h4>Thank you for submitting the form!</h4>
+          <p>Your message has been sent successfully. I will contact you via Email for futher communications</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  var submitted = false;
+
+  document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    submitted = true;
+    var form = event.target;
+    form.submit();
+  });
+
+  function displayThankYouMessage() {
+    var form = document.getElementById("contact-form");
+    form.style.display = "none";
+    document.getElementById("thank-you-message").style.display = "block";
+  }
+</script>
+
+
+
+
+
+
 
 
 <footer class="shared footer bg-blue-light py-5">
