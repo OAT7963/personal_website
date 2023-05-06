@@ -3,7 +3,7 @@ id: "cta"
 
 content:
   title: "Contact me now!"
-  text: "First 20 gets free service. Currently 8/20 filled up"
+  text: "First 10 gets free service. as of now, 2/10 filled up"
 
   image: "images/contact-me.gif"
   button:

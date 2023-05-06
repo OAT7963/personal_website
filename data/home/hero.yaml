@@ -2,8 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **Level Up** your career"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
+  title: "Learn from a tech industry trailblazer who beat the odds - **fast-track your tech career journey, no matter your background!**"
+  text: "I’m here to help you navigate the unique challenges of the tech sector and **stand out in a crowded job market**"
 
   buttonPrimary:
     label: "About Me"

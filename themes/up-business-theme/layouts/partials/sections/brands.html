@@ -1,3 +1,11 @@
+<!-- Add custom CSS class for bold text -->
+<style>
+  .bold-text {
+    font-weight: bold;
+  }
+</style>
+
+
 <section class="section brands py-5">
   <div class="container">
     <div class="row">
@@ -8,10 +16,21 @@
       {{ end }}
     </div>
     <div class="row align-items-center justify-content-center">
-      {{ range .content.items }}
+      {{ range $index, $element := .content.items }}
       <div class="col px-3 my-2 text-center">
-        {{ partial "utilities/image-third.html" . }}
+        {{ partial "utilities/image-third.html" $element }}
+        <div style="max-width: 100%; padding-top: 10px;">
+          <p>
+            <span class="bold-text" style="color: {{ index $.content.colors $index }};">{{ index $.content.texts $index }}</span>
+            {{ index $.content.sub_texts $index }}
+          </p>
+        </div>
       </div>
+      {{ if lt $index 3 }} <!-- Add arrow only after the first and second images -->
+      <div class="col-1 text-center align-self-center">
+        <img src="/images/arrow.png" alt="Arrow">
+      </div>
+      {{ end }}
       {{ end }}
     </div>
   </div>

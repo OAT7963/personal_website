@@ -11,8 +11,8 @@ title: "Ong Aun Ter"
 summaryLength: 20
 
 params:
-  title: "Up Business"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  title: "Ong Aun Ter"
+  description: "I can help you with Career Transition"
   images: 
     - "images/hero-image.png"
 
@@ -30,14 +30,12 @@ params:
     twitter: "#"
 
   location:
-    - "3891 Ranchview Dr. Richardson, California 62639"
-    - "4517 Washington Ave. Manchester, Kentucky 39495"
+    - "Kuala Lumpur, Malaysia"
 
   contact:
-    - "trungkienspktnd@gamail.com"
-    - "207.555.0119"
+    - "ongaunter@gamail.com"
 
-  copyright: "© 2022 Up Business All Rights Reserved"
+  # copyright: "© 2022 Up Business All Rights Reserved"
 
 menus:
   main:
@@ -77,13 +75,13 @@ menus:
       url: "/#"
       weight: 2
 
-    - name: "Our team"
+    - name: "My Services"
       url: "/#"
       weight: 3
 
-    - name: "Pricing"
-      url: "/#"
-      weight: 4
+    # - name: "Pricing"
+    #   url: "/#"
+    #   weight: 4
 
     - name: "Blog"
       url: "/blog"

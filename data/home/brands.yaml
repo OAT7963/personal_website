@@ -2,10 +2,26 @@ enabled: true
 id: "brands"
 
 content:
-  title: "I come from various backgrounds"
+  title: "My career progression into Tech Industry from Environmental Science"
   items:
+    - "images/graduation-logo.png"
     - "images/surgeventures-logo.jpeg"
     - "images/intel-logo.png"
     - "images/xsolla-logo.png"
+  texts:
+    - "Environmental Science Graduate"
+    - "Project Manager/Data Analyst"
+    - "Asia Retail Partner Solutions Lead"
+    - "Business Analyst"
+  sub_texts:
+    - " from University of Nottingham "
+    - " of a Malaysian Data Analytics & AI startup"
+    - " at Intel Corporation"
+    - " at Xsolla Inc."
+  colors:
+    - "#00008B"
+    - "#212529" # Color for Surge Ventures
+    - "#33A2FF" # Color for Intel
+    - "#FF0000" # Color for Xsolla
     # - "images/brands-spotify.png"
     # - "images/brands-dropbox.png"

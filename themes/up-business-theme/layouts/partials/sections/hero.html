@@ -1,15 +1,33 @@
-<section class="section hero py-5">
+<!-- Add a custom CSS class for smaller font size -->
+<style>
+  .title-text {
+    font-size: 3rem;
+  }
+  .content-text {
+    font-size: 1.5rem;
+  }
+  .add-text {
+    font-size: 1.5rem;
+  }
+  .opacity-text {
+    opacity: 0.6; /* Adjust the opacity value as needed */
+  }
+
+
+</style>
+
+<section class="section hero py-2">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
+      <div class="col-12 col-xl-5 d-flex flex-column justify-content-center hero-image"> <!-- Update col-xl-6 to col-xl-4 -->
         {{ partial "utilities/image-fluid" "images/hero-test-image.png" }}
       </div>
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-7 d-flex flex-column justify-content-center"> <!-- Update col-xl-6 to col-xl-8 -->
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
+          <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify pb-4 title-text">{{ . | markdownify }}</h3> <!-- Add smaller-text class -->
         {{ end }}
         {{ with .content.text }}
-          <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
+          <p class="text-center text-black-61 text-xl-start pb-4 content-text">{{ . | markdownify }}</p> <!-- Add smaller-text class -->
         {{ end }}
         <div class="d-flex flex-column flex-xl-row">
           {{ with .content.buttonPrimary }}
@@ -22,4 +40,20 @@
       </div>
     </div>
   </div>
+</section>
+
+<!-- New section for the additional text -->
+<section class="section additional-text py-">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center add-text opacity-text">
+        <b>Resume Review | Interview Preparation | Career Guidance | Industry Transition | Targetted Upskilling</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section additional-text py-20" style="padding-bottom: 3rem;"> <!-- Add inline styles for padding-bottom -->
+  <!-- ... -->
 </section>

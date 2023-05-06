@@ -3,62 +3,83 @@ id: "portfolio"
 
 content:
   - image: "images/2.png"
-    pretitle: "Career"
+    pretitle: "Step 1"
     title: "Discover Your Career Path"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    text: |
+      Data Scientist?
+      IT Project Manager?
+      Database Administrator?
+      Cloud Solutions Architect?
+      Business Intelligence Analyst?
+      AI/Machine Learning Engineer?
+      DevOps Engineer? 
+      Big Data Engineer? 
+      Quality Assurance Engineer?
 
     buttons: 
-      - label: "See live"
+      - label: "Career Quiz"
         url: "#"
 
       - label: "Read more"
         url: "#"
 
   - image: "images/3.png"
-    pretitle: "Interview"
-    title: "Build Your Professional Brand"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "Step 2"
+    title: "Assisted Learning & Support"
+    text: |
+      Role-specific Technical Skills (e.g. Programming skills)
+      Peripheral Technical Skills (e.g. Technical Documentation / Non-technical documentation)
+      Industry Insights and Knowledge
 
     buttons: 
-      - label: "See live"
+      - label: "Read More"
         url: "#"
 
-      - label: "Read more"
-        url: "#"
+      # - label: "Read more"
+      #   url: "#"
 
   - image: "images/4.png"
-    pretitle: "Portfolio Service"
-    title: "Assisted Learning and Support"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "Step 3"
+    title: "Build Your Professional Brand"
+    text: |
+      Resume Review
+      Cover Letter Review
+      Job-searching Strategies
+      Interview Preparation
+      Mock Interviews
 
     buttons: 
-      - label: "See live"
+      - label: "Read More"
         url: "#"
 
-      - label: "Read more"
-        url: "#"
+      # - label: "Read more"
+      #   url: "#"
 
 
   - image: "images/5.png"
-    pretitle: "Portfolio Service"
-    title: "Gain Experience and Skills"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "Step 4"
+    title: "Stand Out to Employers"
+    text: |
+      Create a Portfolio Project
+      Create your own website
 
     buttons: 
-      - label: "See live"
+      - label: "Read More"
         url: "#"
 
-      - label: "Read more"
+      - label: "My Portfolio"
         url: "#"
 
   - image: "images/6.png"
-    pretitle: "Portfolio Service"
-    title: "Ace Your Interviews"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    pretitle: "Step 5"
+    title: "Upskill & Reskill"
+    text: |
+      Stay up-tp-date on latest industry Developments
+      Break into a new role
 
     buttons: 
-      - label: "See live"
+      - label: "Read More"
         url: "#"
 
-      - label: "Read more"
-        url: "#"
+      # - label: "Read more"
+      #   url: "#"

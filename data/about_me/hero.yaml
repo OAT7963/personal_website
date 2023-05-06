@@ -2,25 +2,18 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Unlock Your Potential: Choose My Expertise for Your Early Career Success"
+  title: "My successful self-taught journey is a testament to the fact that anyone can **break into the tech industry** with the right mindset & the drive to learn "
   text: "
   
-          Throughout my educational and personal journey, my interests spanned multiple fields (Contemporary dance, Law, Engineering and Science). 
-          
-          
-          In high school, I was drawn to law, architecture, and engineering, largely influenced by public opinion at the time. Upon completing my SPM, I developed a strong affinity for Chemistry, which led me to apply to Sunway University. 
-          
-          
-          In college is where I chose a blend of science and business subjects. After attending an accounting class, I realized it wasn’t for me. As a result, halfway through the course, I transitioned to the Foundation in Science program at Heriot Watt University. 
-  
+          I started my academic journey as an Actuarial Science student before transitioning to Mechanical Engineering, and ultimately pursuing a Bachelor's degree in Environmental Science.
 
-          From there, my academic path took me through Actuarial Science, followed by two years of Mechanical Engineering, and finally to Environmental Science, where I finally completed my degree. 
+
+          In my final year of university, I discovered my passion for data, but it was too late to switch degrees, so I embarked on a self-taught journey to learn data science.
           
+
+          I knew that breaking into the tech industry would not be easy without a formal data science or IT degree. However, through self-study and hard work, I developed the skills I needed to land my first job  in a local data analytics startup before moving on to a multinational and international tech company. 
           
-          
-          As I neared completion of my Environmental Science degree, I recognized the challenges of the job market in this field. Consequently, during the pandemic, I focused on enhancing my data skills to better prepare myself for this competitive industry.
-          
-          
+
           Here's how I did it."
 
   buttonPrimary:
