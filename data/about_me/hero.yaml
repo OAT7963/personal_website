@@ -2,17 +2,17 @@ enabled: true
 id: "hero"
 
 content:
-  title: "My successful self-taught journey is a testament to the fact that anyone can **break into the tech industry** with the right mindset & the drive to learn "
+  title: "My Successful Self-Taught Journey is a testament to the fact that anyone can **break into the Tech Industry**."
   text: "
   
           I started my academic journey as an Actuarial Science student before transitioning to Mechanical Engineering, and ultimately pursuing a Bachelor's degree in Environmental Science.
 
 
-          In my final year of university, I discovered my passion for data, but it was too late to switch degrees, so I embarked on a self-taught journey to learn data science.
+          I Discovered my Passion for Data in My Final Year. 
           
 
-          I knew that breaking into the tech industry would not be easy without a formal data science or IT degree. However, through self-study and hard work, I developed the skills I needed to land my first job  in a local data analytics startup before moving on to a multinational and international tech company. 
-          
+          Self-Taught, I overcame lacking a formal IT degree, joining a Data Analytics Startup and then an Multi-National Tech Company.          
+
 
           Here's how I did it."
 
@@ -22,5 +22,18 @@ content:
 
   buttonSecondary:
     label: "Have a Conversation with me"
-    url: ""
+    url: "/message_me"
 
+
+
+#old text
+          # I started my academic journey as an Actuarial Science student before transitioning to Mechanical Engineering, and ultimately pursuing a Bachelor's degree in Environmental Science.
+
+
+          # In my final year of university, I discovered my passion for data, but it was too late to switch degrees, so I embarked on a self-taught journey to learn data science.
+          
+
+          # I knew that breaking into the tech industry would not be easy without a formal data science or IT degree. However, through self-study and hard work, I developed the skills I needed to land my first job  in a local data analytics startup before moving on to a multinational and international tech company. 
+          
+
+          # Here's how I did it."

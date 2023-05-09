@@ -3,25 +3,25 @@ id: "services"
 
 content:
   title: "How I can help you"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  text: "Discover Your Career Path"
   cards:
     - image: "images/services-project-guide.jpg"
-      title: "Project Aid"
+      title: "Assisted Learning and Support"
       text: "Assisten learning, step by step guide"
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-interview-prep.png"
-      title: "Interviews"
-      text: "30 - 60 minutes mock interviews | Preparing for Interview Tests"
+      title: "Build Your Professional Brand"
+      text: "Resume Review | Mock Interviews"
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-career-development.jpg"
-      title: "Career Developement"
-      text: "Resume Review | Upskill and Reskill"
+    - image: "images/services-interview-prep.png"
+      title: "Career Developement | Stand out to Employer"
+      text: "Portfolio Project | Create Your Own Website"
       button:
         label: "Learn more"
         url: "#"

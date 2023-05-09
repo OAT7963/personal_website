@@ -1,15 +1,56 @@
+<!-- Add a custom CSS class for smaller font size -->
+<style>
+  .title-text {
+    font-size: 3rem;
+  }
+  .content-text {
+    font-size: 1.5rem;
+  }
+  .add-text {
+    font-size: 1.5rem;
+  }
+  .opacity-text {
+    opacity: 0.6; /* Adjust the opacity value as needed */
+  }
+
+  .rounded-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 100px; /* Adjust the border-radius value to your preference */
+}
+
+.rounded-image-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 8px; /* Match the border-radius value from .rounded-image-wrapper */
+}
+
+.rounded-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>
+
 <section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-3  d-flex flex-column justify-content-center hero-image">
-        {{ partial "utilities/image-fluid" "images/profile_pic_jpg.jpeg" }}
+      <div class="col-12 col-xl-3 d-flex flex-column justify-content-center hero-image">
+        <div class="rounded-image-wrapper">
+          {{ partial "utilities/image-fluid" "images/profile_pic_jpg.jpeg" }}
+        </div>
       </div>
       <div class="col-12 col-xl-9 d-flex flex-column justify-content-center">
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start" style="font-size: 53px;" >{{ . | markdownify }}</h3>
+          <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify title-text text-xl-start">{{ . | markdownify }}</h3>
         {{ end }}
         {{ with .content.text }}
-          <p class="text-center text-black-61 text-xl-start" style="color: black;">{{ . | markdownify }}</p>
+          <p class="text-center text-black-61 text-xl-start pb-4 content-text">{{ . | markdownify }}</p>
         {{ end }}
         <div class="d-flex flex-column flex-xl-row">
           {{ with .content.buttonPrimary }}
@@ -23,3 +64,5 @@
     </div>
   </div>
 </section>
+
+

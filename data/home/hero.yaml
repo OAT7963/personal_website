@@ -2,8 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Learn from a tech industry trailblazer who beat the odds - **fast-track your tech career journey, no matter your background!**"
-  text: "I’m here to help you navigate the unique challenges of the tech sector and **stand out in a crowded job market**"
+  title: "Learn from a Tech Industry Trailblazer who beat the odds. **Fast-Track your Tech Career journey, No Matter Your Background!**"
+  text: "I’m here to help you navigate the unique challenges of the Tech Sector and **Stand Out in a Crowded Job Market**"
 
   buttonPrimary:
     label: "About Me"
