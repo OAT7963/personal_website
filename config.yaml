@@ -47,9 +47,9 @@ menus:
       url: "/about_me"
       weight: 2
 
-    # - name: "Test"
-    #   url: "/#"
-    #   weight: 3
+    - name: "Read More"
+      url: "/read_more"
+      weight: 3
 
     - name: "Services"
       url: "/services"
