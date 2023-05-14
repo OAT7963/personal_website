@@ -1,0 +1,8 @@
+{{ define "main" }}
+  {{ with .Site.Data.read_more.hero }}{{ partial "sections_readMore/hero.html" . }}{{ end }}
+  {{ with .Site.Data.read_more.brands }}{{ partial "sections_readMore/brands.html" . }}{{ end }}
+  {{ with .Site.Data.read_more.portfolio }}{{ partial "sections_readMore/portfolio_non_alternating.html" . }}{{ end }}
+  {{ with .Site.Data.read_more.services }}{{ partial "sections_readMore/services.html" . }}{{ end }}
+  {{ with .Site.Data.read_more.testimonials }}{{ partial "sections_readMore/testimonials.html" . }}{{ end }}
+  {{ with .Site.Data.read_more.cta }}{{ partial "sections_readMore/cta.html" . }}{{ end }}
+{{ end }}

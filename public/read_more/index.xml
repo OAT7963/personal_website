@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Read_mores on Ong Aun Ter</title>
+    <link>https://ongaunter.netlify.app/read_more/</link>
+    <description>Recent content in Read_mores on Ong Aun Ter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Apr 2023 18:03:56 +0530</lastBuildDate><atom:link href="https://ongaunter.netlify.app/read_more/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://ongaunter.netlify.app/read_more/read_more/</link>
+      <pubDate>Sat, 15 Apr 2023 18:03:56 +0530</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/read_more/read_more/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

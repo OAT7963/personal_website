@@ -1,0 +1,56 @@
+enabled: true
+id: "portfolio_non_alternating"
+
+content:
+  - image: ""
+    pretitle: "All the best"
+    title: "Once you've completed the quiz, you can book an appointment with me to:"
+    text: 
+        DIVE DEEPER|We'll discuss whether the recommended role is truly suitable for you, what it entails, and its potential career trajectory.
+
+        GET STARTED ON YOUR PATH|Learn about the necessary qualifications, certifications, and experiences you'll need to break into your ideal tech role.
+
+        EXCEL IN YOUR CHOSEN FIELD|Gain valuable insights and tips on how to stand out from the competition and grow within your chosen field.
+
+    buttons: 
+      - label: "See live"
+        url: "#"
+
+      - label: "Read more"
+        url: "#"
+
+  # - image: "images/portfolio-ecommerce.png"
+  #   pretitle: "2013 - 2017"
+  #   title: "Post-SPM Exploration: Overcoming Uncertainty"
+  #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+  #   buttons: 
+  #     - label: "See live"
+  #       url: "#"
+
+  #     - label: "Read more"
+  #       url: "#"
+
+  # - image: "images/portfolio-ecommerce.png"
+  #   pretitle: "2019 - 2020"
+  #   title: "Degree Hopping to Success: Environmental Science Journey"
+  #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+  #   buttons: 
+  #     - label: "See live"
+  #       url: "#"
+
+  #     - label: "Read more"
+  #       url: "#"
+
+  # - image: "images/portfolio-ecommerce.png"
+  #   pretitle: "2019 - 2020"
+  #   title: "Degree Hopping to Success: Environmental Science Journey"
+  #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+  #   buttons: 
+  #     - label: "See live"
+  #       url: "#"
+
+  #     - label: "Read more"
+  #       url: "#"

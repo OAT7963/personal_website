@@ -1,0 +1,142 @@
+<!-- Add a custom CSS class for smaller font size -->
+<style>
+  .title-text {
+    font-size: 3rem;
+  }
+  .content-text {
+    font-size: 1.5rem;
+  }
+  .add-text {
+    font-size: 1.5rem;
+  }
+  .opacity-text {
+    opacity: 0.6; /* Adjust the opacity value as needed */
+  }
+
+  .rounded-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 100px; /* Adjust the border-radius value to your preference */
+}
+
+.rounded-image-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 8px; /* Match the border-radius value from .rounded-image-wrapper */
+}
+
+.rounded-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.text-section {
+  position: absolute;
+  top: 30%; /* This will move the section to the middle of the screen vertically */
+  left: 15%; /* This will move the section slightly from the left edge of the screen */
+  z-index: 2;
+  width: 100%;
+}
+
+.custom-title {
+  position: relative;
+  top: 100%; /* This will move the title upwards in relation to the text section */
+  left: 0;
+}
+
+.custom-text {
+  position: relative;
+  top: 50%; /* This will move the text upwards in relation to the text section */
+  left: 0;
+}
+
+
+.top-image {
+  position: relative;
+  z-index: 1;
+}
+
+.text-section {
+  z-index: 2;
+}
+
+.title-text {
+  text-align: right;
+}
+
+.content-text {
+  text-align: left;
+}
+
+.top-image {
+  position: relative;
+  z-index: 1;
+}
+
+.button-container {
+  margin-left: 200px; /* Adjust as needed */
+}
+
+</style>
+
+
+<section class="section hero py-5">
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-12 d-flex flex-column justify-content-center hero-image h-50 position-relative">
+        <div class="rounded-image-wrapper top-image h-100">
+          {{ partial "utilities/image-fluid" "images/read_more_hero.png" }}
+        </div>
+        <div class="position-absolute top-0 start-0 text-section d-flex justify-content-center">
+          <div class="me-3">
+            {{ with .content.title }}
+              <h3 class="fw-bold display-1 text-primary text-end pb-4 title-text">{{ . | markdownify }}</h3>
+            {{ end }}
+          </div>
+          <div>
+            {{ with .content.text }}
+              <p class="pb-4 content-text text-black-61">{{ . | markdownify }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-xl-row button-container">
+      {{ with .content.buttonPrimary }}
+        <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}">{{ .label }}</a>
+      {{ end }}
+      {{ with .content.buttonSecondary }}
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+      {{ end }}
+    </div>
+  </div>      
+</section>
+
+
+
+
+
+
+
+<!-- New section for the additional text -->
+<section class="section additional-text py-">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center add-text opacity-text">
+        <b>Resume Review | Interview Preparation | Career Guidance | Industry Transition | Targetted Upskilling</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section additional-text py-20" style="padding-bottom: 3rem;"> <!-- Add inline styles for padding-bottom -->
+  <!-- ... -->
+</section>

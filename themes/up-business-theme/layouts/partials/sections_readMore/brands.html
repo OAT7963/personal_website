@@ -1,0 +1,52 @@
+<!-- Add custom CSS class for bold text -->
+<style>
+  .bold-text {
+    font-weight: bold;
+  }
+</style>
+
+<!-- Add custom CSS class for the arrow image -->
+<style>
+  .arrow-image {
+    width: 100%;
+  }
+
+  /* Add media query for smaller screens */
+  @media (max-width: 767px) {
+    .arrow-image {
+      display: none; /* Hide the arrow image on smaller screens */
+    }
+  }
+</style>
+
+
+
+<section class="section brands py-5">
+  <div class="container">
+    <div class="row">
+      {{ with .content.title }}
+        <div class="col-12">
+          <h3 class="fs-5 fw-semibold text-primary text-center pb-4">{{ . }}</h3>
+        </div>
+      {{ end }}
+    </div>
+    <div class="row align-items-center justify-content-center">
+      {{ range $index, $element := .content.items }}
+      <div class="col px-3 my-2 text-center">
+        {{ partial "utilities/image-third.html" $element }}
+        <div style="max-width: 100%; padding-top: 10px;">
+          <p>
+            <span class="bold-text" style="color: {{ index $.content.colors $index }};">{{ index $.content.texts $index }}</span>
+            {{ index $.content.sub_texts $index }}
+          </p>
+        </div>
+      </div>
+      {{ if lt $index 3 }} <!-- Add arrow only after the first and second images -->
+      <div class="col-1 text-center align-self-center">
+        <img class="arrow-image" src="/images/arrow.png" alt="Arrow"> <!-- Add arrow-image class -->
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

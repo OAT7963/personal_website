@@ -1,0 +1,44 @@
+<style>
+  .portfolio-text {
+    font-size: 2rem; /* Adjust as needed */
+    color: black; /* Text color set to black */
+  }
+  .text-row {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+</style>
+
+<section class="section portfolio">
+  <div class="container">
+    {{ range .content }}
+    <div class="row portfolio-feature portfolio-feature-non-alternating">
+      <div class="col-12 d-flex flex-column justify-content-center">
+        {{ with .pretitle }}
+          <p class="text-danger fw-semibold mb-2">{{ . }}</p>
+        {{ end }}
+        {{ with .title }}
+          <h3 class="fs-1 fw-bold text-primary pb-3">{{ . }}</h3>
+        {{ end }}
+        {{ with .text }}
+          {{ range (split (trim . "\n") "\n") }}
+            {{ $pointAndSentence := split . "|" }}
+            <div class="row text-black-61 pb-3 portfolio-text text-row">
+              <div class="col-3 fw-bold d-flex align-items-start"> <!-- First column, bolded -->
+                {{ index $pointAndSentence 0 }}
+              </div>
+              <div class="col-9 d-flex align-items-start"> <!-- Second column -->
+                {{ index $pointAndSentence 1 }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+        <div class="">
+          {{ range .buttons }}
+            <a class="text-decoration-none me-3" href="{{ .url }}">{{ .label }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
