@@ -306,6 +306,12 @@ if (!doNotTrack) {
   margin-left: 200px;  
 }
 
+@media (max-width: 768px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
+
 </style>
 
 
@@ -329,10 +335,10 @@ if (!doNotTrack) {
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-xl-row button-container">
+    <div class="d-flex flex-column flex-xl-row justify-content-center button-container">
       
       
-        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="../message_me">Click here to take your Career Quiz<span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 btn-block w-auto mx-auto" href="../message_me">Click here to take your Career Quiz<span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg>
 </span></a>
@@ -340,6 +346,7 @@ if (!doNotTrack) {
     </div>
   </div>      
 </section>
+
 
 
 
@@ -371,6 +378,12 @@ if (!doNotTrack) {
   .text-row {
     margin-bottom: 20px;  
   }
+
+  @media (max-width: 768px) {  
+    .portfolio-text {
+      font-size: 1rem;  
+    }
+  }
 </style>
 
 <section class="section portfolio">
@@ -388,30 +401,30 @@ if (!doNotTrack) {
           
             
             <div class="row text-black-61 pb-3 portfolio-text text-row">
-              <div class="col-3 fw-bold d-flex align-items-start"> 
+              <div class="col-sm-12 col-md-3 fw-bold d-flex align-items-start"> 
                 DIVE DEEPER
               </div>
-              <div class="col-9 d-flex align-items-start"> 
+              <div class="col-sm-12 col-md-9 d-flex align-items-start"> 
                 We&#39;ll discuss whether the recommended role is truly suitable for you, what it entails, and its potential career trajectory.
               </div>
             </div>
           
             
             <div class="row text-black-61 pb-3 portfolio-text text-row">
-              <div class="col-3 fw-bold d-flex align-items-start"> 
+              <div class="col-sm-12 col-md-3 fw-bold d-flex align-items-start"> 
                 GET STARTED ON YOUR PATH
               </div>
-              <div class="col-9 d-flex align-items-start"> 
+              <div class="col-sm-12 col-md-9 d-flex align-items-start"> 
                 Learn about the necessary qualifications, certifications, and experiences you&#39;ll need to break into your ideal tech role.
               </div>
             </div>
           
             
             <div class="row text-black-61 pb-3 portfolio-text text-row">
-              <div class="col-3 fw-bold d-flex align-items-start"> 
+              <div class="col-sm-12 col-md-3 fw-bold d-flex align-items-start"> 
                 EXCEL IN YOUR CHOSEN FIELD
               </div>
-              <div class="col-9 d-flex align-items-start"> 
+              <div class="col-sm-12 col-md-9 d-flex align-items-start"> 
                 Gain valuable insights and tips on how to stand out from the competition and grow within your chosen field.
               </div>
             </div>
@@ -434,8 +447,28 @@ if (!doNotTrack) {
   .custom-card {
     border: 1px solid green;  
     background-color: transparent;  
-    transform: scale(0.85); Half the size
+     
   }
+
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
+
+  .smaller-card {
+    padding: 2rem;
+  }
+  
+  .smaller-card .card-title, .smaller-card .card-text {
+    font-size: 0.8rem;
+  }
+
+  .smaller-card .btn {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.7rem;
+  }
+
 </style>
 
 <section class="section services py-5">
@@ -455,13 +488,13 @@ if (!doNotTrack) {
         <div class="col-12 col-xl-4">
           <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
 
 
             <div class="card-body text-center">
               <h4 class="card-title text-center text-primary pb-4">Web development</h4>
               <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4" href="#">Learn more</a>
+              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
             </div>
           </div>
         </div>
@@ -469,13 +502,13 @@ if (!doNotTrack) {
         <div class="col-12 col-xl-4">
           <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
 
 
             <div class="card-body text-center">
               <h4 class="card-title text-center text-primary pb-4">Web development</h4>
               <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4" href="#">Learn more</a>
+              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
             </div>
           </div>
         </div>
@@ -483,13 +516,13 @@ if (!doNotTrack) {
         <div class="col-12 col-xl-4">
           <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
 
 
             <div class="card-body text-center">
               <h4 class="card-title text-center text-primary pb-4">Web development</h4>
               <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4" href="#">Learn more</a>
+              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
             </div>
           </div>
         </div>
@@ -497,13 +530,13 @@ if (!doNotTrack) {
         <div class="col-12 col-xl-4">
           <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
 
 
             <div class="card-body text-center">
               <h4 class="card-title text-center text-primary pb-4">Web development</h4>
               <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4" href="#">Learn more</a>
+              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
             </div>
           </div>
         </div>
@@ -511,13 +544,13 @@ if (!doNotTrack) {
         <div class="col-12 col-xl-4">
           <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
 
 
             <div class="card-body text-center">
               <h4 class="card-title text-center text-primary pb-4">Web development</h4>
               <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4" href="#">Learn more</a>
+              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
             </div>
           </div>
         </div>
@@ -525,13 +558,13 @@ if (!doNotTrack) {
         <div class="col-12 col-xl-4">
           <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/services-web-development.png" alt="images/services-web-development.png" width="1098" height="824">
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
 
 
             <div class="card-body text-center">
               <h4 class="card-title text-center text-primary pb-4">Web development</h4>
               <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4" href="#">Learn more</a>
+              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
             </div>
           </div>
         </div>

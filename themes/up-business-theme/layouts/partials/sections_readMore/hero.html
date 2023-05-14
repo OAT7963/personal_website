@@ -84,6 +84,12 @@
   margin-left: 200px; /* Adjust as needed */
 }
 
+@media (max-width: 768px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
+
 </style>
 
 
@@ -108,16 +114,17 @@
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-xl-row button-container">
+    <div class="d-flex flex-column flex-xl-row justify-content-center button-container">
       {{ with .content.buttonPrimary }}
-        <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}">{{ .label }}</a>
+        <a class="btn btn-primary text-light px-4 my-1 btn-block w-auto mx-auto" href="{{ .url }}">{{ .label }}</a>
       {{ end }}
       {{ with .content.buttonSecondary }}
-        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 btn-block w-auto mx-auto" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
       {{ end }}
     </div>
   </div>      
 </section>
+
 
 
 

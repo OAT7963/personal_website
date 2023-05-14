@@ -5,42 +5,42 @@ content:
   title: "Don't Agree with your Quiz Results? Don't Worry!"
   text: "I'm here to provide personalised advice to explore alternative tech roles that may align with your preferences and abilities."
   cards:
-    - image: "images/services-web-development.png"
+    - image: "images/graduation-logo.png"
       title: "Web development"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/graduation-logo.png"
       title: "Web development"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/graduation-logo.png"
       title: "Web development"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/graduation-logo.png"
       title: "Web development"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/graduation-logo.png"
       title: "Web development"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
+    - image: "images/graduation-logo.png"
       title: "Web development"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
