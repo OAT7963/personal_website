@@ -47,7 +47,7 @@ menus:
       url: "/about_me"
       weight: 2
 
-    - name: "Read More"
+    - name: "Career Quiz"
       url: "/read_more"
       weight: 3
 

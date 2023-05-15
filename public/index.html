@@ -198,7 +198,7 @@ if (!doNotTrack) {
           </li>
         
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" href="./read_more">Read More</a>
+            <a class="nav-link text-primary px-4" href="./read_more">Career Quiz</a>
           </li>
         
           <li class="nav-item text-center">
@@ -238,7 +238,15 @@ if (!doNotTrack) {
 
   .rounded-image-wrapper {
   position: relative;
+  max-width: 300px;   
+  max-height: 300px;  
   overflow: hidden;
+}
+
+.rounded-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 100px;  
 }
 
@@ -253,10 +261,28 @@ if (!doNotTrack) {
   border-radius: 8px;  
 }
 
-.rounded-image-wrapper img {
-  display: block;
-  width: 100%;
-  height: auto;
+ 
+@media (max-width: 1024px) {
+    .rounded-image-wrapper img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+ 
+@media (max-width: 768px) {
+    .rounded-image-wrapper img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+ 
+@media (max-width: 576px) {
+    .rounded-image-wrapper img {
+        max-width: 180px;
+        max-height: 180px;
+    }
 }
 
 </style>
@@ -264,7 +290,7 @@ if (!doNotTrack) {
 <section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-3 d-flex flex-column justify-content-center hero-image">
+      <div class="col-12 col-xl-3 d-flex flex-column justify-content-center align-items-center hero-image">
         <div class="rounded-image-wrapper">
           
   <img class="img-fluid" src="https://ongaunter.netlify.app/images/profile_pic_jpg.jpeg" alt="images/profile_pic_jpg.jpeg" width="768" height="768">
