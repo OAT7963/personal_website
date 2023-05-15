@@ -303,7 +303,11 @@ if (!doNotTrack) {
 }
 
 .button-container {
-  margin-left: 200px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px
 }
 
 @media (max-width: 768px) {
@@ -311,6 +315,24 @@ if (!doNotTrack) {
       font-size: 0.8rem;
     }
   }
+
+  .add-text {
+  font-size: 2vw;  
+}
+
+ 
+@media (max-width: 576px) {
+  .add-text {
+    font-size: 16px;  
+  }
+}
+
+ 
+@media (min-width: 1200px) {
+  .add-text {
+    font-size: 24px;  
+  }
+}
 
 </style>
 
@@ -335,15 +357,16 @@ if (!doNotTrack) {
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-xl-row justify-content-center button-container">
+    <div class="button-container">
       
       
-        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 btn-block w-auto mx-auto" href="../message_me">Click here to take your Career Quiz<span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 w-auto" href="../message_me">Click here to take your Career Quiz<span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg>
 </span></a>
       
     </div>
+    
   </div>      
 </section>
 
@@ -372,7 +395,7 @@ if (!doNotTrack) {
   
   <style>
   .portfolio-text {
-    font-size: 2rem;  
+    font-size: 1.5rem;  
     color: black;  
   }
   .text-row {
@@ -447,33 +470,47 @@ if (!doNotTrack) {
   .custom-card {
     border: 1px solid green;  
     background-color: transparent;  
-     
   }
 
-  @media (max-width: 768px) {
-    .btn {
-      font-size: 0.8rem;
+   
+  @media (max-width: 576px) {
+    .smaller-card .card-title {
+        font-size: 1rem;
+    }
+    .smaller-card .card-text {
+        font-size: 0.8rem;
+    }
+    .smaller-card .btn {
+        padding: 0.5rem 1rem;
     }
   }
 
-  .smaller-card {
-    padding: 2rem;
-  }
-  
-  .smaller-card .card-title, .smaller-card .card-text {
-    font-size: 0.8rem;
+   
+  .row.g-5 {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .smaller-card .btn {
-    padding: 0.2rem 0.4rem;
-    font-size: 0.7rem;
+  .col-12.col-xl-4 {
+    display: flex;
+    flex-direction: column;
   }
 
+  .card {
+    flex: 1 1 auto; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    flex-grow: 1;
+  }
 </style>
+
 
 <section class="section services py-5">
   <div class="container">
-    <div class="row justify-content-center pb-5">
+    <div class="row justify-content-center">
       <div class="col-12 col-xl-6 w-100">
         
         <h3 class="fs-1 fw-bold text-center text-primary pb-3 w-100">Don&rsquo;t Agree with your Quiz Results? Don&rsquo;t Worry!</h3>
@@ -485,89 +522,89 @@ if (!doNotTrack) {
     </div>
     <div class="row g-5">
       
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_1.png" alt="images/blog_pic_1.png" width="340" height="100">
 
 
-            <div class="card-body text-center">
-              <h4 class="card-title text-center text-primary pb-4">Web development</h4>
-              <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
-            </div>
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">The Perfect Fit Fallacy: Why Your Ideal Tech Career Might Not Exist</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
           </div>
-        </div>
+      </div>
       
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_2.png" alt="images/blog_pic_2.png" width="344" height="100">
 
 
-            <div class="card-body text-center">
-              <h4 class="card-title text-center text-primary pb-4">Web development</h4>
-              <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
-            </div>
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">Skills vs. Degrees: Which Matters More in the Tech Industry?</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
           </div>
-        </div>
+      </div>
       
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_3.png" alt="images/blog_pic_3.png" width="340" height="100">
 
 
-            <div class="card-body text-center">
-              <h4 class="card-title text-center text-primary pb-4">Web development</h4>
-              <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
-            </div>
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">Tech Industry Burnout: Why Your Dream Job Might Turn into a Nightmare</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
           </div>
-        </div>
+      </div>
       
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_4.png" alt="images/blog_pic_4.png" width="340" height="100">
 
 
-            <div class="card-body text-center">
-              <h4 class="card-title text-center text-primary pb-4">Web development</h4>
-              <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
-            </div>
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">Why Switching to a Career in Tech Might Be a Huge Mistake for Some People</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
           </div>
-        </div>
+      </div>
       
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_5.png" alt="images/blog_pic_5.png" width="340" height="100">
 
 
-            <div class="card-body text-center">
-              <h4 class="card-title text-center text-primary pb-4">Web development</h4>
-              <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
-            </div>
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">The Hard Truths You Need to Know Before Making the Leap into Tech</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
           </div>
-        </div>
+      </div>
       
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/graduation-logo.png" alt="images/graduation-logo.png" width="200" height="200">
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_6.png" alt="images/blog_pic_6.png" width="342" height="100">
 
 
-            <div class="card-body text-center">
-              <h4 class="card-title text-center text-primary pb-4">Web development</h4>
-              <p class="card-text text-black-61 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. </p>
-              <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
-            </div>
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">The Pros and Cons of Switching to a Tech Career Mid-Life</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
           </div>
-        </div>
+      </div>
       
 </section>
 

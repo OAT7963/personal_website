@@ -1,17 +1,31 @@
 <!-- Add a custom CSS class for smaller font size -->
 <style>
+.title-text {
+  font-size: 3vw; /* Adjust as needed */
+}
+.content-text {
+  font-size: 1.5vw; /* Adjust as needed */
+}
+
+/* Set a minimum font size for small screens */
+@media (max-width: 576px) {
   .title-text {
-    font-size: 3rem;
+    font-size: 24px; /* Adjust as needed */
   }
   .content-text {
-    font-size: 1.5rem;
+    font-size: 16px; /* Adjust as needed */
   }
-  .add-text {
-    font-size: 1.5rem;
+}
+
+/* Set a maximum font size for large screens */
+@media (min-width: 1200px) {
+  .title-text {
+    font-size: 48px; /* Adjust as needed */
   }
-  .opacity-text {
-    opacity: 0.6; /* Adjust the opacity value as needed */
+  .content-text {
+    font-size: 24px; /* Adjust as needed */
   }
+}
 
   .rounded-image-wrapper {
   position: relative;
@@ -62,6 +76,24 @@
     }
 }
 
+.add-text {
+  font-size: 2vw; /* Adjust this value as needed */
+}
+
+/* Set a minimum font size for small screens */
+@media (max-width: 576px) {
+  .add-text {
+    font-size: 16px; /* Adjust this value as needed */
+  }
+}
+
+/* Set a maximum font size for large screens */
+@media (min-width: 1200px) {
+  .add-text {
+    font-size: 24px; /* Adjust this value as needed */
+  }
+}
+
 </style>
 
 <section class="section hero py-5">
@@ -72,7 +104,7 @@
           {{ partial "utilities/image-fluid" "images/profile_pic_jpg.jpeg" }}
         </div>
       </div>
-      <div class="col-12 col-xl-9 d-flex flex-column justify-content-center "> <!-- Update col-xl-6 to col-xl-8 -->
+      <div class="col-12 col-xl-9 d-flex flex-column justify-content-center"> <!-- Update col-xl-6 to col-xl-8 -->
         {{ with .content.title }}
           <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify pb-4 title-text text-xl-start">{{ . | markdownify }}</h3> <!-- Add smaller-text class -->
         {{ end }}
@@ -92,7 +124,6 @@
   </div>
 </section>
 
-<!-- New section for the additional text -->
 <section class="section additional-text py-">
   <div class="container">
     <div class="row">

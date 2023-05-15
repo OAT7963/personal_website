@@ -222,22 +222,44 @@ if (!doNotTrack) {
 
   
 <style>
+.title-text {
+  font-size: 3vw;  
+}
+.content-text {
+  font-size: 1.5vw;  
+}
+
+ 
+@media (max-width: 576px) {
   .title-text {
-    font-size: 3rem;
+    font-size: 24px;  
   }
   .content-text {
-    font-size: 1.5rem;
+    font-size: 16px;  
   }
-  .add-text {
-    font-size: 1.5rem;
+}
+
+ 
+@media (min-width: 1200px) {
+  .title-text {
+    font-size: 48px;  
   }
-  .opacity-text {
-    opacity: 0.6;  
+  .content-text {
+    font-size: 24px;  
   }
+}
 
   .rounded-image-wrapper {
   position: relative;
+  max-width: 300px;   
+  max-height: 300px;  
   overflow: hidden;
+}
+
+.rounded-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 100px;  
 }
 
@@ -252,17 +274,36 @@ if (!doNotTrack) {
   border-radius: 8px;  
 }
 
-.rounded-image-wrapper img {
-  display: block;
-  width: 100%;
-  height: auto;
+ 
+@media (max-width: 1024px) {
+    .rounded-image-wrapper img {
+        max-width: 180px;
+        max-height: 180px;
+    }
 }
+
+ 
+@media (max-width: 768px) {
+    .rounded-image-wrapper img {
+        max-width: 180px;
+        max-height: 180px;
+    }
+}
+
+ 
+@media (max-width: 576px) {
+    .rounded-image-wrapper img {
+        max-width: 180px;
+        max-height: 180px;
+    }
+}
+
 </style>
 
 <section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
-      <div class="col-12 col-xl-3 d-flex flex-column justify-content-center hero-image">
+      <div class="col-12 col-xl-3 d-flex flex-column justify-content-center align-items-center hero-image">
         <div class="rounded-image-wrapper">
           
   <img class="img-fluid" src="https://ongaunter.netlify.app/images/profile_pic_jpg.jpeg" alt="images/profile_pic_jpg.jpeg" width="768" height="768">
@@ -270,12 +311,12 @@ if (!doNotTrack) {
 
         </div>
       </div>
-      <div class="col-12 col-xl-9 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-9 d-flex flex-column justify-content-center "> 
         
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify title-text text-xl-start">My Successful Self-Taught Journey is a testament to the fact that anyone can <strong>break into the Tech Industry</strong>.</h3>
+          <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify pb-4 title-text text-xl-start">My Successful Self-Taught Journey is a testament to the fact that anyone can <strong>break into the Tech Industry.</strong></h3> 
         
         
-          <p class="text-center text-black-61 text-xl-start pb-4 content-text"><p>I started my academic journey as an Actuarial Science student before transitioning to Mechanical Engineering, and ultimately pursuing a Bachelor&rsquo;s degree in Environmental Science.</p>
+          <p class="text-center text-black-61 text-xl-start content-text"><p>I started my academic journey as an Actuarial Science student before transitioning to Mechanical Engineering, and ultimately pursuing a Bachelor&rsquo;s degree in Environmental Science.</p>
 <p>I Discovered my Passion for Data in My Final Year.</p>
 <p>Self-Taught, I overcame lacking a formal IT degree, joining a Data Analytics Startup and then an Multi-National Tech Company.</p>
 <p>Here&rsquo;s how I did it.</p>
@@ -298,7 +339,20 @@ if (!doNotTrack) {
 </section>
 
 
+<section class="section additional-text py-">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center add-text opacity-text">
+        <b>Resume Review | Interview Preparation | Career Guidance | Industry Transition | Targetted Upskilling</b>
+      </div>
+    </div>
+  </div>
+</section>
 
+
+<section class="section additional-text py-20" style="padding-bottom: 3rem;"> 
+  
+</section>
   
 <style>
   .bold-text {

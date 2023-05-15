@@ -2,33 +2,47 @@
   .custom-card {
     border: 1px solid green; /* Green border */
     background-color: transparent; /* Transparent background */
-    /* transform: scale(1); Half the size */
   }
 
-  @media (max-width: 768px) {
-    .btn {
-      font-size: 0.8rem;
+  /* CSS for smaller screens */
+  @media (max-width: 576px) {
+    .smaller-card .card-title {
+        font-size: 1rem;
+    }
+    .smaller-card .card-text {
+        font-size: 0.8rem;
+    }
+    .smaller-card .btn {
+        padding: 0.5rem 1rem;
     }
   }
 
-  .smaller-card {
-    padding: 2rem;
-  }
-  
-  .smaller-card .card-title, .smaller-card .card-text {
-    font-size: 0.8rem;
+  /* Add these styles to your CSS */
+  .row.g-5 {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .smaller-card .btn {
-    padding: 0.2rem 0.4rem;
-    font-size: 0.7rem;
+  .col-12.col-xl-4 {
+    display: flex;
+    flex-direction: column;
   }
 
+  .card {
+    flex: 1 1 auto; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    flex-grow: 1;
+  }
 </style>
+
 
 <section class="section services py-5">
   <div class="container">
-    <div class="row justify-content-center pb-5">
+    <div class="row justify-content-center">
       <div class="col-12 col-xl-6 w-100">
         {{ with .content.title }}
         <h3 class="fs-1 fw-bold text-center text-primary pb-3 w-100">{{ . | markdownify }}</h3>
@@ -40,16 +54,16 @@
     </div>
     <div class="row g-5">
       {{ range .content.cards }}
-        <div class="col-12 col-xl-4">
-          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card">
-            {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
-            <div class="card-body text-center">
-              {{ with .title }}<h4 class="card-title text-center text-primary pb-4">{{ . }}</h4>{{ end }}
-              {{ with .text }}<p class="card-text text-black-61 pb-4">{{ . }}</p>{{ end }}
-              {{ with .button }}<a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="{{ .url }}">{{ .label }}</a>{{ end }}
-            </div>
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> <!-- Add smaller-card class here -->
+              {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
+              <div class="card-body text-center">
+                  {{ with .title }}<h4 class="card-title text-start text-primary pb-4">{{ . }}</h4>{{ end }}
+                  {{ with .text }}<p class="card-text text-black-61 pb-4">{{ . }}</p>{{ end }}
+                  {{ with .button }}<a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="{{ .url }}">{{ .label }}</a>{{ end }}
+              </div>
           </div>
-        </div>
+      </div>
       {{ end }}
 </section>
 

@@ -81,7 +81,11 @@
 }
 
 .button-container {
-  margin-left: 200px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px
 }
 
 @media (max-width: 768px) {
@@ -89,6 +93,24 @@
       font-size: 0.8rem;
     }
   }
+
+  .add-text {
+  font-size: 2vw; /* Adjust this value as needed */
+}
+
+/* Set a minimum font size for small screens */
+@media (max-width: 576px) {
+  .add-text {
+    font-size: 16px; /* Adjust this value as needed */
+  }
+}
+
+/* Set a maximum font size for large screens */
+@media (min-width: 1200px) {
+  .add-text {
+    font-size: 24px; /* Adjust this value as needed */
+  }
+}
 
 </style>
 
@@ -114,14 +136,15 @@
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-xl-row justify-content-center button-container">
+    <div class="button-container">
       {{ with .content.buttonPrimary }}
-        <a class="btn btn-primary text-light px-4 my-1 btn-block w-auto mx-auto" href="{{ .url }}">{{ .label }}</a>
+        <a class="btn btn-primary text-light px-4 my-1 w-auto" href="{{ .url }}">{{ .label }}</a>
       {{ end }}
       {{ with .content.buttonSecondary }}
-        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 btn-block w-auto mx-auto" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 w-auto" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
       {{ end }}
     </div>
+    
   </div>      
 </section>
 

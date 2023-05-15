@@ -223,18 +223,32 @@ if (!doNotTrack) {
 
   
 <style>
+.title-text {
+  font-size: 3vw;  
+}
+.content-text {
+  font-size: 1.5vw;  
+}
+
+ 
+@media (max-width: 576px) {
   .title-text {
-    font-size: 3rem;
+    font-size: 24px;  
   }
   .content-text {
-    font-size: 1.5rem;
+    font-size: 16px;  
   }
-  .add-text {
-    font-size: 1.5rem;
+}
+
+ 
+@media (min-width: 1200px) {
+  .title-text {
+    font-size: 48px;  
   }
-  .opacity-text {
-    opacity: 0.6;  
+  .content-text {
+    font-size: 24px;  
   }
+}
 
   .rounded-image-wrapper {
   position: relative;
@@ -285,6 +299,24 @@ if (!doNotTrack) {
     }
 }
 
+.add-text {
+  font-size: 2vw;  
+}
+
+ 
+@media (max-width: 576px) {
+  .add-text {
+    font-size: 16px;  
+  }
+}
+
+ 
+@media (min-width: 1200px) {
+  .add-text {
+    font-size: 24px;  
+  }
+}
+
 </style>
 
 <section class="section hero py-5">
@@ -298,7 +330,7 @@ if (!doNotTrack) {
 
         </div>
       </div>
-      <div class="col-12 col-xl-9 d-flex flex-column justify-content-center "> 
+      <div class="col-12 col-xl-9 d-flex flex-column justify-content-center"> 
         
           <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify pb-4 title-text text-xl-start">Learn from a Tech Industry Trailblazer who beat the odds. <strong>Fast-Track your Tech Career journey, No Matter Your Background!</strong></h3> 
         
@@ -320,7 +352,6 @@ if (!doNotTrack) {
     </div>
   </div>
 </section>
-
 
 <section class="section additional-text py-">
   <div class="container">
