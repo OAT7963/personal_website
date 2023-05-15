@@ -1,14 +1,14 @@
 <div class="row justify-content-center categories">
-  <div class="col-12 text-center">
+  <div class="col-12 col-md-10 col-lg-8 text-center">
     <!-- Add the following code to display the title of the page -->
     {{ with .Title }}
     <h2 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h2>
     {{ end }}
     <!-- Add the following code to generate the category list -->
-    <ul class="list-inline">
+    <div class="d-flex flex-wrap justify-content-center align-items-center">
       {{ range .Site.Taxonomies.categories }}
-        <li class="list-inline-item"><a href="{{ $.Site.BaseURL }}/{{ .Page.RelPermalink }}" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2">{{ .Page.Title }}</a></li>
+        <a href="{{ $.Site.BaseURL }}/{{ .Page.RelPermalink }}" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">{{ .Page.Title }}</a>
       {{ end }}
-    </ul>
+    </div>
   </div>
 </div>

@@ -4,7 +4,7 @@ title : "Data Visualization"
 date : "2019-03-11"
 description : "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 categories: 
-  - Data Visualization
+  - Data Viz
 
 ---
 
