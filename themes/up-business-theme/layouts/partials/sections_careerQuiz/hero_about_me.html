@@ -35,13 +35,18 @@
   width: 100%;
   height: auto;
 }
+
+.smaller-image img {
+  width: 60%;  /* or any size you want */
+  height: auto;
+}
 </style>
 
 <section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse">
       <div class="col-12 col-xl-3 d-flex flex-column justify-content-center hero-image">
-        <div class="rounded-image-wrapper">
+        <div class="rounded-image-wrapper smaller-image">
           {{ partial "utilities/image-fluid" "images/profile_pic_jpg.jpeg" }}
         </div>
       </div>

@@ -19,8 +19,8 @@ content:
     - " at Intel Corporation"
     - " at Xsolla Inc."
   colors:
-    - "#FF5733"
-    - "#FF5733" # Color for Surge Ventures
+    - "#00008B"
+    - "#212529" # Color for Surge Ventures
     - "#33A2FF" # Color for Intel
-    - "#8B33FF" # Color for Xsolla
+    - "#FF0000" # Color for Xsolla
 

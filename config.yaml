@@ -48,7 +48,7 @@ menus:
       weight: 2
 
     - name: "Career Quiz"
-      url: "/read_more"
+      url: "/career_quiz"
       weight: 3
 
     - name: "Services"

@@ -112,6 +112,17 @@
   }
 }
 
+.smaller-image {
+  display: flex;
+  justify-content: center;  /* Aligns items on the horizontal line */
+  align-items: center;  /* Aligns items on the vertical line */
+  height: 100%;  /* Set the height as per your requirements */
+}
+
+.smaller-image img {
+  max-width: 80%;  /* Adjust as per your requirements */
+  height: auto;
+}
 </style>
 
 
@@ -119,8 +130,8 @@
   <div class="container-fluid h-100">
     <div class="row h-100">
       <div class="col-12 d-flex flex-column justify-content-center hero-image h-50 position-relative">
-        <div class="rounded-image-wrapper top-image h-100">
-          {{ partial "utilities/image-fluid" "images/read_more_hero.png" }}
+        <div class="rounded-image-wrapper top-image h-100 smaller-image">
+          {{ partial "utilities/image-fluid" "images/read_more_hero_2.png" }}
         </div>
         <div class="position-absolute top-0 start-0 text-section d-flex justify-content-center">
           <div class="me-3">
@@ -138,10 +149,10 @@
     </div>
     <div class="button-container">
       {{ with .content.buttonPrimary }}
-        <a class="btn btn-primary text-light px-4 my-1 w-auto" href="{{ .url }}">{{ .label }}</a>
+        <a class="btn btn-primary text-light px-4 my-1 w-auto" href="{{ .url }}" target="_blank">{{ .label }}</a>
       {{ end }}
       {{ with .content.buttonSecondary }}
-        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 w-auto" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 w-auto" href="{{ .url }}" target="_blank">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
       {{ end }}
     </div>
     

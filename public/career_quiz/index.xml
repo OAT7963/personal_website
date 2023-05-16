@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career_quizzes on Ong Aun Ter</title>
+    <link>https://ongaunter.netlify.app/career_quiz/</link>
+    <description>Recent content in Career_quizzes on Ong Aun Ter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Apr 2023 18:03:56 +0530</lastBuildDate><atom:link href="https://ongaunter.netlify.app/career_quiz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Career QUiz</title>
+      <link>https://ongaunter.netlify.app/career_quiz/career_quiz/</link>
+      <pubDate>Sat, 15 Apr 2023 18:03:56 +0530</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/career_quiz/career_quiz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

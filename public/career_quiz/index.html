@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   
-  <title>Ong Aun Ter  | Data Viz </title>
+  <title>Ong Aun Ter  | Career_quizzes </title>
 
   
   <meta charset="UTF-8" />
@@ -63,10 +63,10 @@ if (!doNotTrack) {
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://ongaunter.netlify.app/images/hero-image.png"/>
 
-<meta name="twitter:title" content="Data Viz"/>
+<meta name="twitter:title" content="Career_quizzes"/>
 <meta name="twitter:description" content="I can help you with Career Transition"/>
 
-<meta itemprop="name" content="Data Viz">
+<meta itemprop="name" content="Career_quizzes">
 <meta itemprop="description" content="I can help you with Career Transition">
 
 
@@ -169,7 +169,7 @@ if (!doNotTrack) {
 
 
   
-  <link rel="alternate" type="application/rss+xml" href="https://ongaunter.netlify.app/categories/data-viz/index.xml" title="Ong Aun Ter" />
+  <link rel="alternate" type="application/rss+xml" href="https://ongaunter.netlify.app/career_quiz/index.xml" title="Ong Aun Ter" />
   </head>
 
  
@@ -189,30 +189,30 @@ if (!doNotTrack) {
       <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
         
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" href="../../">Home</a>
+            <a class="nav-link text-primary px-4" href="../">Home</a>
           </li>
         
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" href="../../about_me">About Me</a>
+            <a class="nav-link text-primary px-4" href="../about_me">About Me</a>
           </li>
         
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" href="../../career_quiz">Career Quiz</a>
+            <a class="nav-link text-primary px-4" href="../career_quiz">Career Quiz</a>
           </li>
         
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" href="../../services">Services</a>
+            <a class="nav-link text-primary px-4" href="../services">Services</a>
           </li>
         
           <li class="nav-item text-center">
-            <a class="nav-link text-primary px-4" href="../../blog">Blog</a>
+            <a class="nav-link text-primary px-4" href="../blog">Blog</a>
           </li>
         
       </ul>
       <ul class="navbar-nav ms-xl-3 mb-2 mb-xl-0">
         
           <li class="nav-item">
-            <a class="nav-link btn btn-primary text-light px-4" href="../../message_me">Book a call</a>
+            <a class="nav-link btn btn-primary text-light px-4" href="../message_me">Book a call</a>
           </li>
         
       </ul>
@@ -220,67 +220,499 @@ if (!doNotTrack) {
   </div>
 </nav>
 
+  
+<style>
+  .title-text {
+    font-size: 3rem;
+  }
+  .content-text {
+    font-size: 1.5rem;
+  }
+  .add-text {
+    font-size: 1.5rem;
+  }
+  .opacity-text {
+    opacity: 0.6;  
+  }
 
-<div class="row justify-content-center categories">
-  <div class="col-12 col-md-10 col-lg-8 text-center">
-    
-    
-    <h2 class="fs-1 fw-bold text-center text-primary pb-3">Data Viz</h2>
-    
-    
-    <div class="d-flex flex-wrap justify-content-center align-items-center">
+  .rounded-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 100px;  
+}
+
+.rounded-image-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 8px;  
+}
+
+.rounded-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.text-section {
+  position: absolute;
+  top: 30%;  
+  left: 15%;  
+  z-index: 2;
+  width: 100%;
+}
+
+.custom-title {
+  position: relative;
+  top: 100%;  
+  left: 0;
+}
+
+.custom-text {
+  position: relative;
+  top: 50%;  
+  left: 0;
+}
+
+
+.top-image {
+  position: relative;
+  z-index: 1;
+}
+
+.text-section {
+  z-index: 2;
+}
+
+.title-text {
+  text-align: right;
+}
+
+.content-text {
+  text-align: left;
+}
+
+.top-image {
+  position: relative;
+  z-index: 1;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px
+}
+
+@media (max-width: 768px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
+
+  .add-text {
+  font-size: 2vw;  
+}
+
+ 
+@media (max-width: 576px) {
+  .add-text {
+    font-size: 16px;  
+  }
+}
+
+ 
+@media (min-width: 1200px) {
+  .add-text {
+    font-size: 24px;  
+  }
+}
+
+.smaller-image {
+  display: flex;
+  justify-content: center;   
+  align-items: center;   
+  height: 100%;   
+}
+
+.smaller-image img {
+  max-width: 80%;   
+  height: auto;
+}
+</style>
+
+
+<section class="section hero py-5">
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-12 d-flex flex-column justify-content-center hero-image h-50 position-relative">
+        <div class="rounded-image-wrapper top-image h-100 smaller-image">
+          
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/read_more_hero_2.png" alt="images/read_more_hero_2.png" width="2903" height="869">
+
+
+        </div>
+        <div class="position-absolute top-0 start-0 text-section d-flex justify-content-center">
+          <div class="me-3">
+            
+          </div>
+          <div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
       
-        <a href="https://ongaunter.netlify.app//categories/career/" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">Career</a>
       
-        <a href="https://ongaunter.netlify.app//categories/data-quality/" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">Data Quality</a>
-      
-        <a href="https://ongaunter.netlify.app//categories/data-viz/" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">Data Viz</a>
-      
-        <a href="https://ongaunter.netlify.app//categories/data-wrangling/" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">Data Wrangling</a>
-      
-        <a href="https://ongaunter.netlify.app//categories/documentation/" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">Documentation</a>
-      
-        <a href="https://ongaunter.netlify.app//categories/interview/" class="btn btn-outline-primary rounded-pill px-3 py-1 me-2 mb-2">Interview</a>
+        <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 w-auto" href="https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit" target="_blank">Click here to take your Career Quiz<span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>
+</span></a>
       
     </div>
-  </div>
-</div>
+    
+  </div>      
+</section>
 
 
-<section class="section blog-list py-5">
+
+
+
+
+
+
+
+<section class="section additional-text py-">
   <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-12 col-xl-6">
-        
+    <div class="row">
+      <div class="col-12 text-center add-text opacity-text">
+        <b>Resume Review | Interview Preparation | Career Guidance | Industry Transition | Targetted Upskilling</b>
       </div>
-    </div>
-    
-    <div class="row g-4 pb-5">
-      
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://ongaunter.netlify.app/post/data_visualization/">
-          <div class="aspect-ratio-62-5">
-            
-              
-  <img class="" src="https://ongaunter.netlify.app/images/hero-image.png" alt="images/hero-image.png" width="1772" height="1773">
-
-
-            
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Data Visualization</h5>
-            <p class="card-text text-black-61">This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-</p>
-          </div>
-        </a>
-      </div>
-      
-    </div>
-    <div class="row pb-5">
-      
     </div>
   </div>
 </section>
+
+
+<section class="section additional-text py-20" style="padding-bottom: 3rem;"> 
+  
+</section>
+  
+  <style>
+  .portfolio-text {
+    font-size: 1.5rem;  
+    color: black;  
+  }
+  .text-row {
+    margin-bottom: 20px;  
+  }
+
+  @media (max-width: 768px) {  
+    .portfolio-text {
+      font-size: 1rem;  
+    }
+  }
+
+  
+</style>
+
+<section class="section portfolio">
+  <div class="container">
+    
+    <div class="row portfolio-feature portfolio-feature-non-alternating">
+      <div class="col-12 d-flex flex-column justify-content-center">
+        
+          <p class="text-danger fw-semibold mb-2">All the best</p>
+        
+        
+          <h3 class="fs-1 fw-bold text-primary pb-3 ">Once you&#39;ve completed the quiz, book an appointment with me to:</h3>
+        
+        
+          
+            
+            <div class="row text-black-61 pb-3 portfolio-text text-row">
+              <div class="col-sm-12 col-md-3 fw-bold d-flex align-items-start"> 
+                DIVE DEEPER
+              </div>
+              <div class="col-sm-12 col-md-9 d-flex align-items-start"> 
+                We&#39;ll discuss whether the recommended role is truly suitable for you, what it entails, and its potential career trajectory.
+              </div>
+            </div>
+          
+            
+            <div class="row text-black-61 pb-3 portfolio-text text-row">
+              <div class="col-sm-12 col-md-3 fw-bold d-flex align-items-start"> 
+                GET STARTED ON YOUR PATH
+              </div>
+              <div class="col-sm-12 col-md-9 d-flex align-items-start"> 
+                Learn about the necessary qualifications, certifications, and experiences you&#39;ll need to break into your ideal tech role.
+              </div>
+            </div>
+          
+            
+            <div class="row text-black-61 pb-3 portfolio-text text-row">
+              <div class="col-sm-12 col-md-3 fw-bold d-flex align-items-start"> 
+                EXCEL IN YOUR CHOSEN FIELD
+              </div>
+              <div class="col-sm-12 col-md-9 d-flex align-items-start"> 
+                Gain valuable insights and tips on how to stand out from the competition and grow within your chosen field.
+              </div>
+            </div>
+          
+        
+        <div class="">
+          
+            <a class="text-decoration-none me-3" href="#">See live</a>
+          
+            <a class="text-decoration-none me-3" href="#">Read more</a>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+  <style>
+  .custom-card {
+    border: 1px solid green;  
+    background-color: transparent;  
+  }
+
+   
+  @media (max-width: 576px) {
+    .smaller-card .card-title {
+        font-size: 1rem;
+    }
+    .smaller-card .card-text {
+        font-size: 0.8rem;
+    }
+    .smaller-card .btn {
+        padding: 0.5rem 1rem;
+    }
+  }
+
+   
+  .row.g-5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col-12.col-xl-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 auto; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    flex-grow: 1;
+  }
+</style>
+
+
+<section class="section services py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6 w-100">
+        
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3 w-100">Don&rsquo;t Agree with your Quiz Results? Don&rsquo;t Worry!</h3>
+        
+        
+          <p class="text-black-61 text-center pb-3">I&rsquo;m here to provide personalised advice to explore alternative tech roles that may align with your preferences and abilities.</p>
+        
+      </div>
+    </div>
+    <div class="row g-5">
+      
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_1.png" alt="images/blog_pic_1.png" width="340" height="100">
+
+
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">The Perfect Fit Fallacy: Why Your Ideal Tech Career Might Not Exist</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_2.png" alt="images/blog_pic_2.png" width="344" height="100">
+
+
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">Skills vs. Degrees: Which Matters More in the Tech Industry?</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_3.png" alt="images/blog_pic_3.png" width="340" height="100">
+
+
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">Tech Industry Burnout: Why Your Dream Job Might Turn into a Nightmare</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_4.png" alt="images/blog_pic_4.png" width="340" height="100">
+
+
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">Why Switching to a Career in Tech Might Be a Huge Mistake for Some People</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_5.png" alt="images/blog_pic_5.png" width="340" height="100">
+
+
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">The Hard Truths You Need to Know Before Making the Leap into Tech</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-12 col-xl-4">
+          <div class="card bg-pastel-green-16 border-radius-34 p-4 custom-card smaller-card"> 
+              
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/blog_pic_6.png" alt="images/blog_pic_6.png" width="342" height="100">
+
+
+              <div class="card-body text-center">
+                  <h4 class="card-title text-start text-primary pb-4">The Pros and Cons of Switching to a Tech Career Mid-Life</h4>
+                  
+                  <a class="btn btn-outline-primary px-4 w-auto mx-auto d-block" href="#">Learn more</a>
+              </div>
+          </div>
+      </div>
+      
+</section>
+
+
+<section class="section hero py-5">
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-12 d-flex flex-column justify-content-center hero-image h-50 position-relative">
+        <div class="rounded-image-wrapper top-image h-100">
+          
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/read_more_hero_2.png" alt="images/read_more_hero_2.png" width="2903" height="869">
+
+
+        </div>
+</section>
+
+
+
+  
+  <section class="section cta py-5">
+  <div class="container">
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){displayThankYouMessage();}"></iframe>
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6">
+        
+          <h3 class="fs-1 fw-bold text-center text-primary pb-3">Send me a message!</h3>
+        
+        
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6 text-center">
+        
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/contact-me.gif" alt="images/contact-me.gif" width="660" height="500">
+
+
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+      <div class="col-12 col-xl-6">
+        <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeI3b2cjeC3L_pUqKD0EWcIbAQCipfRh9zaim4C1QhjM2Joxg/formResponse" method="post" target="hidden_iframe">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" name="entry.996740428" placeholder="Enter your email address" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number:</label>
+            <input type="tel" class="form-control" id="phone" name="entry.237161919" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Educational/Career Background:</label>
+            <input type="text" class="form-control" id="subject" name="entry.942843889" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message: (point forms of why and where you need help)</label>
+            <textarea class="form-control" id="message" name="entry.695626101" rows="4" placeholder="Write your message here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+          <a href="https://calendly.com/ongaunter/15min?month=2023-05" target="_blank" class="btn btn-secondary mt-3" role="button">Set a 15-Minute meeting right away</a>
+
+        </form>
+        <div id="thank-you-message" class="mt-3" style="display: none;">
+          <h4>Thank you for submitting the form!</h4>
+          <p>Your message has been sent successfully. I will contact you via Email for futher communications</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  var submitted = false;
+
+  document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    submitted = true;
+    var form = event.target;
+    form.submit();
+  });
+
+  function displayThankYouMessage() {
+    var form = document.getElementById("contact-form");
+    form.style.display = "none";
+    document.getElementById("thank-you-message").style.display = "block";
+  }
+</script>
+
+
+
+
+
+
+
+
 <footer class="shared footer bg-blue-light py-5">
   <div class="container">
     <div class="row pb-5">
@@ -313,19 +745,19 @@ if (!doNotTrack) {
         <ul class="list-unstyled">
           
             <li class="">
-              <a class="small text-black-61 text-decoration-none" href="../../#hero">Home</a>
+              <a class="small text-black-61 text-decoration-none" href="../#hero">Home</a>
             </li>
           
             <li class="">
-              <a class="small text-black-61 text-decoration-none" href="../../">About Me</a>
+              <a class="small text-black-61 text-decoration-none" href="../">About Me</a>
             </li>
           
             <li class="">
-              <a class="small text-black-61 text-decoration-none" href="../../">My Services</a>
+              <a class="small text-black-61 text-decoration-none" href="../">My Services</a>
             </li>
           
             <li class="">
-              <a class="small text-black-61 text-decoration-none" href="../../blog">Blog</a>
+              <a class="small text-black-61 text-decoration-none" href="../blog">Blog</a>
             </li>
           
         </ul>

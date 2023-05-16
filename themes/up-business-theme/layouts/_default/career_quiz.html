@@ -1,0 +1,8 @@
+{{ define "main" }}
+  {{ with .Site.Data.career_quiz.hero }}{{ partial "sections_careerQuiz/hero.html" . }}{{ end }}
+  {{ with .Site.Data.career_quiz.brands }}{{ partial "sections_careerQuiz/brands.html" . }}{{ end }}
+  {{ with .Site.Data.career_quiz.portfolio }}{{ partial "sections_careerQuiz/portfolio_non_alternating.html" . }}{{ end }}
+  {{ with .Site.Data.career_quiz.services }}{{ partial "sections_careerQuiz/services.html" . }}{{ end }}
+  {{ with .Site.Data.career_quiz.testimonials }}{{ partial "sections_careerQuiz/testimonials.html" . }}{{ end }}
+  {{ with .Site.Data.career_quiz.cta }}{{ partial "sections_careerQuiz/cta.html" . }}{{ end }}
+{{ end }}

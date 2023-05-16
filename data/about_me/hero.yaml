@@ -17,12 +17,12 @@ content:
           Here's how I did it."
 
   buttonPrimary:
-    label: "My Journey"
-    url: "#"
-
-  buttonSecondary:
     label: "Have a Conversation with me"
     url: "/message_me"
+
+  # buttonSecondary:
+  #   label: "Have a Conversation with me"
+  #   url: "/message_me"
 
 
 
