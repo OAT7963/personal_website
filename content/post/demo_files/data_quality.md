@@ -3,8 +3,8 @@ author: "Hugo Authors"
 title: "Data Quality"
 date: "2019-03-05"
 description: "Guide to emoji usage in Hugo"
+images: ["images/blog_pic_3.png"]
 categories: 
-  - Data Quality
   - Career
 
 ---
