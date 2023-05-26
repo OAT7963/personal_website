@@ -311,15 +311,12 @@ if (!doNotTrack) {
   <section class="section hero py-5">
     <div class="container">
       <div class="row flex-column flex-xl-row-reverse">
-        <div class="col-12 col-xl-3 d-flex flex-column justify-content-center align-items-center hero-image">
+        <div class="col-12 d-flex flex-column justify-content-center align-items-center hero-image">
           <div class="rounded-image-wrapper">
             
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/profile_pic_jpg.jpeg" alt="images/profile_pic_jpg.jpeg" width="768" height="768">
-
-
           </div>
         </div>
-        <div class="col-12 col-xl-9 d-flex flex-column justify-content-center py-2"> 
+        <div class="col-12 col-xl-12 d-flex flex-column justify-content-center py-2"> 
           
             <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify pb-2 title-text text-xl-start">My Successful Self-Taught Journey is a testament to the fact that anyone can <strong>break into the Tech Industry.</strong></h3> 
           
@@ -462,16 +459,63 @@ if (!doNotTrack) {
   </div>
 </section>
 
-  <section class="section portfolio">
+  
+
+<section class="section portfolio">
   <div class="container">
+    <style>
+    .image-border {
+      position: relative;
+      padding: 10px;
+    }
+
+    .image-border::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: radial-gradient(circle at center, transparent, white 120%);
+      pointer-events: none;
+    }
+    
+    .image-border img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (min-width: 576px) { 
+      .image-border img {
+        width: 128px; 
+        height: auto;
+      }
+    }
+
+    @media (min-width: 768px) { 
+      .image-border img {
+        width: 300px;
+        height: auto;
+      }
+    }
+
+    @media (min-width: 1024px) { 
+      .image-border img {
+        width: 80%; 
+        height: auto;
+      }
+    }
+    </style>
     
     <div class="row portfolio-feature portfolio-feature-non-alternating">
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center"> 
         
-          
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/portfolio-ecommerce.png" alt="images/portfolio-ecommerce.png" width="1426" height="1425">
+          <div class="image-border">
+            
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/navigating_highschool.png" alt="images/navigating_highschool.png" width="1024" height="1024">
 
 
+          </div>
         
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
@@ -505,10 +549,12 @@ if (!doNotTrack) {
     <div class="row portfolio-feature portfolio-feature-non-alternating">
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center"> 
         
-          
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/portfolio-ecommerce.png" alt="images/portfolio-ecommerce.png" width="1426" height="1425">
+          <div class="image-border">
+            
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/overcoming_uncertainty.png" alt="images/overcoming_uncertainty.png" width="1024" height="1024">
 
 
+          </div>
         
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
@@ -538,10 +584,12 @@ if (!doNotTrack) {
     <div class="row portfolio-feature portfolio-feature-non-alternating">
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center"> 
         
-          
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/portfolio-ecommerce.png" alt="images/portfolio-ecommerce.png" width="1426" height="1425">
+          <div class="image-border">
+            
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/degree_hopping.png" alt="images/degree_hopping.png" width="1024" height="1024">
 
 
+          </div>
         
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
@@ -571,10 +619,12 @@ if (!doNotTrack) {
     <div class="row portfolio-feature portfolio-feature-non-alternating">
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center"> 
         
-          
-  <img class="img-fluid" src="https://ongaunter.netlify.app/images/portfolio-ecommerce.png" alt="images/portfolio-ecommerce.png" width="1426" height="1425">
+          <div class="image-border">
+            
+  <img class="img-fluid" src="https://ongaunter.netlify.app/images/performing.png" alt="images/performing.png" width="1024" height="1024">
 
 
+          </div>
         
       </div>
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
@@ -582,7 +632,7 @@ if (!doNotTrack) {
           <p class="text-danger fw-semibold mb-2">2019 - 2020</p>
         
         
-          <h3 class="fs-1 fw-bold text-primary pb-3">Degree Hopping to Success: Environmental Science Journey</h3>
+          <h3 class="fs-1 fw-bold text-primary pb-3">Performing in the Tech Sector with on formal tech background</h3>
         
         
         <ul class="text-black-61 pb-3">
@@ -671,7 +721,7 @@ if (!doNotTrack) {
     <div class="row justify-content-center">
       <div class="col-12 col-xl-6">
         
-          <h3 class="fs-1 fw-bold text-center text-primary pb-3">Start your business now!</h3>
+          <h3 class="fs-1 fw-bold text-center text-primary pb-3">Contact me now!</h3>
         
         
       </div>

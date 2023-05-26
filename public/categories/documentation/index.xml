@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ongaunter.netlify.app/categories/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documentation</title>
-      <link>https://ongaunter.netlify.app/post/documentation/</link>
+      <link>https://ongaunter.netlify.app/post/demo_files/documentation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/documentation/</guid>
+      <guid>https://ongaunter.netlify.app/post/demo_files/documentation/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     

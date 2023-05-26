@@ -3,6 +3,7 @@ author: "Hugo Authors"
 title : "Data Wrangling"
 date : "2019-03-09"
 description : "Lorem Ipsum Dolor Si Amet"
+images: ["images/data_wrangling.png"]
 categories: 
   - Data Wrangling
 ---

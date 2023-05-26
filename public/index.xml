@@ -54,47 +54,110 @@
     
     <item>
       <title>Data Visualization</title>
-      <link>https://ongaunter.netlify.app/post/data_visualization/</link>
+      <link>https://ongaunter.netlify.app/post/demo_files/data_visualization/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/data_visualization/</guid>
+      <guid>https://ongaunter.netlify.app/post/demo_files/data_visualization/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Interview</title>
-      <link>https://ongaunter.netlify.app/post/rich-content/</link>
+      <title>7 Common Data Quality Issues and How to Fix Them</title>
+      <link>https://ongaunter.netlify.app/post/01_data_quality/seven_common_dq/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/rich-content/</guid>
+      <guid>https://ongaunter.netlify.app/post/01_data_quality/seven_common_dq/</guid>
+      <description>Common Data Quality Issues Data quality issues are a significant obstacle to the efficiency and reliability of any data-driven process. Seven of the most common problems include inaccurate data, incomplete data, outdated data, duplicate data, inconsistent data, non-compliant data, and poorly defined data.</description>
+    </item>
+    
+    <item>
+      <title>Interview</title>
+      <link>https://ongaunter.netlify.app/post/demo_files/interview/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/demo_files/interview/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Skills vs. Degrees: Which Matters More in the Tech Industry?</title>
+      <link>https://ongaunter.netlify.app/post/02_career/skills_vs_degree/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/02_career/skills_vs_degree/</guid>
+      <description>Valuing Degrees in the Tech Industry In the tech industry, formal degrees have long been seen as a testament to one&amp;rsquo;s knowledge and expertise.</description>
+    </item>
+    
+    <item>
+      <title>Tech Industry Burnout: Why Your Dream Job Might Turn into a Nightmare</title>
+      <link>https://ongaunter.netlify.app/post/02_career/tech_career_burnout/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/02_career/tech_career_burnout/</guid>
+      <description>The Demanding Pace of the Tech Industry The tech industry is renowned for its rapid pace and constant innovation. While this can be exciting, it also means that employees often have to deal with tight deadlines, high workloads, and the continuous pressure to learn new technologies.</description>
+    </item>
+    
+    <item>
+      <title>The Hard Truths You Need to Know Before Making the Leap into Tech</title>
+      <link>https://ongaunter.netlify.app/post/02_career/truths_of_leaping_into_tech-copy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/02_career/truths_of_leaping_into_tech-copy/</guid>
+      <description>The Unavoidable Learning Curve Embarking on a journey into the tech industry involves confronting a steep learning curve. Regardless of your background, the tech industry demands constant learning and adaptation.</description>
+    </item>
+    
+    <item>
+      <title>The Perfect Fit Fallacy</title>
+      <link>https://ongaunter.netlify.app/post/02_career/perfect_fit_fallacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/02_career/perfect_fit_fallacy/</guid>
+      <description>Addressing the Myth of the Perfect Fit For countless years, many people have pursued the idea of a &amp;ldquo;perfect fit&amp;rdquo; career.</description>
+    </item>
+    
+    <item>
+      <title>The Pros and Cons of Switching to a Tech Career Mid-Life</title>
+      <link>https://ongaunter.netlify.app/post/02_career/switching_into_tech_midlife/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/02_career/switching_into_tech_midlife/</guid>
+      <description>Pros of Switching to a Tech Career Mid-Life Switching to a tech career mid-life can bring several advantages. First, the tech industry is renowned for its high earning potential and abundance of job opportunities, which can provide a significant career boost.</description>
+    </item>
+    
+    <item>
+      <title>Why Switching to a Career in Tech Might Be a Huge Mistake for Some People</title>
+      <link>https://ongaunter.netlify.app/post/02_career/tech_career_switch_mistake/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/02_career/tech_career_switch_mistake/</guid>
+      <description>Unrealistic Expectations Switching to a career in tech may seem promising due to high earning potential and flexible work environments. However, for some people, it could be a mistake if expectations are unrealistic.</description>
+    </item>
+    
+    <item>
       <title>Data Wrangling</title>
-      <link>https://ongaunter.netlify.app/post/data_wrangling/</link>
+      <link>https://ongaunter.netlify.app/post/demo_files/data_wrangling/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/data_wrangling/</guid>
+      <guid>https://ongaunter.netlify.app/post/demo_files/data_wrangling/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Documentation</title>
-      <link>https://ongaunter.netlify.app/post/documentation/</link>
+      <link>https://ongaunter.netlify.app/post/demo_files/documentation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/documentation/</guid>
+      <guid>https://ongaunter.netlify.app/post/demo_files/documentation/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Data Quality</title>
-      <link>https://ongaunter.netlify.app/post/data_quality/</link>
+      <link>https://ongaunter.netlify.app/post/demo_files/data_quality/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/data_quality/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://ongaunter.netlify.app/post/demo_files/data_quality/</guid>
+      <description> </description>
     </item>
     
     <item>

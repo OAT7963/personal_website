@@ -3,6 +3,7 @@ author: "Hugo Authors"
 title : "Data Visualization"
 date : "2019-03-11"
 description : "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+images: ["images/data_viz.png"]
 categories: 
   - Data Viz
 

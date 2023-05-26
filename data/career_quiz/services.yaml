@@ -5,45 +5,45 @@ content:
   title: "Don't Agree with your Quiz Results? Don't Worry!"
   text: "I'm here to provide personalised advice to explore alternative tech roles that may align with your preferences and abilities."
   cards:
-    - image: "images/blog_pic_1.png"
+    - image: "images/tech_career_existence.png"
       title: "The Perfect Fit Fallacy: Why Your Ideal Tech Career Might Not Exist"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
-        url: "#"
+        url: "/post/02_career/perfect_fit_fallacy/"
 
-    - image: "images/blog_pic_2.png"
+    - image: "images/Skills_vs_Degree_small.jpg"
       title: "Skills vs. Degrees: Which Matters More in the Tech Industry?"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
-        url: "#"
+        url: "/post/02_career/skills_vs_degree/"
 
-    - image: "images/blog_pic_3.png"
+    - image: "images/Tech_burnout_small.jpg"
       title: "Tech Industry Burnout: Why Your Dream Job Might Turn into a Nightmare"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/blog_pic_4.png"
+    - image: "images/switch_career_mistake.png"
       title: "Why Switching to a Career in Tech Might Be a Huge Mistake for Some People"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/blog_pic_5.png"
+    - image: "images/leap_into_tech.png"
       title: "The Hard Truths You Need to Know Before Making the Leap into Tech"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
-        url: "#"
+        url: "/post/02_career/truths_of_leaping_into_tech/"
 
-    - image: "images/blog_pic_6.png"
+    - image: "images/mid_life_career_switch.png"
       title: "The Pros and Cons of Switching to a Tech Career Mid-Life"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
-        url: "#"
+        url: "http://localhost:1313/post/02_career/switching_into_tech_midlife/"
 

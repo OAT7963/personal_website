@@ -2,7 +2,7 @@ enabled: true
 id: "cta"
 
 content:
-  title: "Start your business now!"
+  title: "Contact me now!"
   image: "images/contact-me.gif"
   button:
     label: "Let's talk"

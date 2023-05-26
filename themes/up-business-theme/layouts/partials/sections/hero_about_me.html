@@ -89,12 +89,12 @@
   <section class="section hero py-5">
     <div class="container">
       <div class="row flex-column flex-xl-row-reverse">
-        <div class="col-12 col-xl-3 d-flex flex-column justify-content-center align-items-center hero-image">
+        <div class="col-12 d-flex flex-column justify-content-center align-items-center hero-image">
           <div class="rounded-image-wrapper">
-            {{ partial "utilities/image-fluid" "images/profile_pic_jpg.jpeg" }}
+            <!-- {{ partial "utilities/image-fluid" "images/profile_pic_jpg.jpeg" }} -->
           </div>
         </div>
-        <div class="col-12 col-xl-9 d-flex flex-column justify-content-center py-2"> <!-- Update col-xl-6 to col-xl-8 -->
+        <div class="col-12 col-xl-12 d-flex flex-column justify-content-center py-2"> <!-- Update col-xl-6 to col-xl-8 -->
           {{ with .content.title }}
             <h3 class="hero-title fw-bold display-1 text-primary text-center text-justify pb-2 title-text text-xl-start">{{ . | markdownify }}</h3> <!-- Add smaller-text class -->
           {{ end }}
