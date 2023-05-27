@@ -3,7 +3,7 @@ author : "Hugo Authors"
 title : "The Perfect Fit Fallacy"
 date : "2019-03-10"
 description : "A brief description of Data Quality"
-images: ["images/tech_career_existence.png"]
+images: ["images/tech_career_existence.jpg"]
 categories: 
   - Career
 

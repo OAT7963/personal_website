@@ -3,7 +3,7 @@ author : "Hugo Authors"
 title : "The Hard Truths You Need to Know Before Making the Leap into Tech"
 date : "2019-03-10"
 description : "A brief description of Data Quality"
-images: ["images/leap_into_tech.png"]
+images: ["images/leap_into_tech.jpg"]
 categories: 
   - Career
 

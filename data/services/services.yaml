@@ -2,26 +2,26 @@ enabled: true
 id: "services"
 
 content:
-  title: "My main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "How I can help you"
+  text: "Discover Your Career Path"
   cards:
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+    - image: "images/services-project-guide.jpg"
+      title: "Assisted Learning and Support"
+      text: "Assisten learning, step by step guide"
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+    - image: "images/services-interview-prep.png"
+      title: "Build Your Professional Brand"
+      text: "Resume Review | Mock Interviews"
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+    - image: "images/services-interview-prep.png"
+      title: "Career Developement | Stand out to Employer"
+      text: "Portfolio Project | Create Your Own Website"
       button:
         label: "Learn more"
         url: "#"

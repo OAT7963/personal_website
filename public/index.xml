@@ -54,11 +54,11 @@
     
     <item>
       <title>Data Visualization</title>
-      <link>https://ongaunter.netlify.app/post/demo_files/data_visualization/</link>
+      <link>https://ongaunter.netlify.app/post/03_data_viz/data_visualization/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/demo_files/data_visualization/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://ongaunter.netlify.app/post/03_data_viz/data_visualization/</guid>
+      <description>Understanding Data Visualization Data visualization is a vital component of any data analysis. It&amp;rsquo;s the practice of translating information into a visual context, making patterns, trends, and insights easier to understand.</description>
     </item>
     
     <item>
@@ -72,11 +72,11 @@
     
     <item>
       <title>Interview</title>
-      <link>https://ongaunter.netlify.app/post/demo_files/interview/</link>
+      <link>https://ongaunter.netlify.app/post/02_career/interview/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/demo_files/interview/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+      <guid>https://ongaunter.netlify.app/post/02_career/interview/</guid>
+      <description>Conducting a Thorough Research In-depth research about the company, its mission, values, culture, and industry trends is a crucial first step in interview preparation.</description>
     </item>
     
     <item>
@@ -144,11 +144,11 @@
     
     <item>
       <title>Documentation</title>
-      <link>https://ongaunter.netlify.app/post/demo_files/documentation/</link>
+      <link>https://ongaunter.netlify.app/post/04_documentation/documentation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/demo_files/documentation/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+      <guid>https://ongaunter.netlify.app/post/04_documentation/documentation/</guid>
+      <description>Importance of Technical Documentation Technical documentation is essential in any tech project as it provides users and stakeholders with a detailed understanding of the product&amp;rsquo;s functionality.</description>
     </item>
     
     <item>
@@ -167,6 +167,15 @@
       
       <guid>https://ongaunter.netlify.app/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ongaunter.netlify.app/post/demo_files/interview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ongaunter.netlify.app/post/demo_files/interview/</guid>
+      <description></description>
     </item>
     
   </channel>

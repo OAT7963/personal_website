@@ -35,7 +35,7 @@
     <loc>https://ongaunter.netlify.app/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ongaunter.netlify.app/post/demo_files/data_visualization/</loc>
+    <loc>https://ongaunter.netlify.app/post/03_data_viz/data_visualization/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ongaunter.netlify.app/categories/data-viz/</loc>
@@ -56,7 +56,7 @@
     <loc>https://ongaunter.netlify.app/categories/interview/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ongaunter.netlify.app/post/demo_files/interview/</loc>
+    <loc>https://ongaunter.netlify.app/post/02_career/interview/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ongaunter.netlify.app/post/02_career/skills_vs_degree/</loc>
@@ -86,7 +86,7 @@
     <loc>https://ongaunter.netlify.app/categories/documentation/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ongaunter.netlify.app/post/demo_files/documentation/</loc>
+    <loc>https://ongaunter.netlify.app/post/04_documentation/documentation/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ongaunter.netlify.app/post/demo_files/data_quality/</loc>
@@ -94,6 +94,8 @@
   </url><url>
     <loc>https://ongaunter.netlify.app/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ongaunter.netlify.app/post/demo_files/interview/</loc>
   </url><url>
     <loc>https://ongaunter.netlify.app/tags/index/</loc>
   </url><url>

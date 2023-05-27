@@ -3,7 +3,7 @@ author : "Hugo Authors"
 title : "7 Common Data Quality Issues and How to Fix Them"
 date : "2019-03-10"
 description : "A brief description of Data Quality"
-images: ["images/7_common_dq_issue.png"]
+images: ["images/7_common_dq_issue.jpg"]
 categories: 
   - Data Quality
 

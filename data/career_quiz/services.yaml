@@ -5,7 +5,7 @@ content:
   title: "Don't Agree with your Quiz Results? Don't Worry!"
   text: "I'm here to provide personalised advice to explore alternative tech roles that may align with your preferences and abilities."
   cards:
-    - image: "images/tech_career_existence.png"
+    - image: "images/tech_career_existence.jpg"
       title: "The Perfect Fit Fallacy: Why Your Ideal Tech Career Might Not Exist"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
@@ -26,21 +26,21 @@ content:
         label: "Learn more"
         url: "#"
 
-    - image: "images/switch_career_mistake.png"
+    - image: "images/switch_career_mistake.jpg"
       title: "Why Switching to a Career in Tech Might Be a Huge Mistake for Some People"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/leap_into_tech.png"
+    - image: "images/leap_into_tech.jpg"
       title: "The Hard Truths You Need to Know Before Making the Leap into Tech"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:
         label: "Learn more"
         url: "/post/02_career/truths_of_leaping_into_tech/"
 
-    - image: "images/mid_life_career_switch.png"
+    - image: "images/mid_life_career_switch.jpg"
       title: "The Pros and Cons of Switching to a Tech Career Mid-Life"
       # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
       button:

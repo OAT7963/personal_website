@@ -2,7 +2,7 @@ enabled: true
 id: "portfolio_non_alternating"
 
 content:
-  - image: "images/navigating_highschool.png"
+  - image: "images/navigating_highschool.jpg"
     pretitle: "2008 - 2012"
     title: "Navigating High School: Discovering Career Purpose"
     text: |
@@ -17,7 +17,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/overcoming_uncertainty.png"
+  - image: "images/overcoming_uncertainty.jpg"
     pretitle: "2013 - 2017"
     title: "Post-SPM Exploration: Overcoming Uncertainty"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
@@ -29,7 +29,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/degree_hopping.png"
+  - image: "images/degree_hopping.jpg"
     pretitle: "2019 - 2020"
     title: "Degree Hopping to Success: Environmental Science Journey"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
@@ -41,7 +41,7 @@ content:
       - label: "Read more"
         url: "#"
 
-  - image: "images/performing.png"
+  - image: "images/performing.jpg"
     pretitle: "2019 - 2020"
     title: "Performing in the Tech Sector with on formal tech background"
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."

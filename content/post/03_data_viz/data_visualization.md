@@ -3,14 +3,43 @@ author: "Hugo Authors"
 title : "Data Visualization"
 date : "2019-03-11"
 description : "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-images: ["images/data_viz.png"]
+images: ["images/data_viz.jpg"]
 categories: 
   - Data Viz
 
 ---
 
+## Understanding Data Visualization
+
+Data visualization is a vital component of any data analysis. It's the practice of translating information into a visual context, making patterns, trends, and insights easier to understand. Visualized data can reveal patterns and trends in the dataset that are not readily apparent from raw data. Graphs, charts, maps, and other visual tools bring data to life, offering a clear picture that transcends language barriers and enhances understanding.
+
+- Data visualization transforms raw data into a visual format.
+- It helps identify patterns, trends, and insights in data.
+- Visual data is universally understood, transcending language barriers.
+
+## Choosing the Right Visualization
+
+Choosing the right visualization method is crucial. Different visualizations serve different purposes. For example, bar graphs are great for comparing quantities across categories, while line graphs are ideal for showing the progression of values over time. Scatter plots can illustrate correlations between two variables. The choice of visualization should always be driven by the nature of the data and the specific insights you want to communicate.
+
+- Different visualization methods serve different purposes.
+- The choice of visualization should align with the data type and desired insights.
+
+## Impact of Proper Data Visualization
+
+Proper data visualization drives better decision-making. It makes complex data more accessible, understandable, and usable. Users can dig into their data and unearth other factors that may have been overlooked. Businesses can understand their customer behaviors better and can make more accurate predictions. In essence, the correct visualization of data is a significant step towards making informed decisions based on data.
+
+- Proper visualization makes complex data accessible and understandable.
+- It allows users to discover new insights from their data.
+- It helps businesses understand customer behavior and make accurate predictions.
+- Correct data visualization is a key to data-driven decision making.
+
+
+
+
+
+<!-- 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+
 
 ## Headings
 
@@ -138,4 +167,4 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures. -->

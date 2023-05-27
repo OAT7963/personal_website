@@ -3,7 +3,7 @@ author : "Hugo Authors"
 title : "The Pros and Cons of Switching to a Tech Career Mid-Life"
 date : "2019-03-10"
 description : "A brief description of Data Quality"
-images: ["images/mid_life_career_switch.png"]
+images: ["images/mid_life_career_switch.jpg"]
 categories: 
   - Career
 

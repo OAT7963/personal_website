@@ -3,7 +3,7 @@ author : "Hugo Authors"
 title : "Why Switching to a Career in Tech Might Be a Huge Mistake for Some People"
 date : "2019-03-10"
 description : "A brief description of Data Quality"
-images: ["images/switch_career_mistake.png"]
+images: ["images/switch_career_mistake.jpg"]
 categories: 
   - Career
 
