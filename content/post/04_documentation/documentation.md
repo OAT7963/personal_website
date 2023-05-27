@@ -1,8 +1,8 @@
 ---
-author: Hugo Authors
-title: Documentation
-date: 2019-03-08
-description: A brief guide to setup KaTeX
+author: "Hugo Authors"
+title: "Documentation"
+date: "2019-03-08"
+description: "A brief guide to setup KaTeX"
 images: ["images/documentation.jpg"]
 
 categories: 
