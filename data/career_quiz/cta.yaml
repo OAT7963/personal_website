@@ -3,7 +3,7 @@ id: "cta"
 
 content:
   title: "Send me a message!"
-  image: "images/contact-me.gif"
+  # image: "images/contact-me.gif"
   button:
     label: "Let's talk"
     url: "#"

@@ -5,21 +5,21 @@ content:
   title: "How I can help you"
   text: "Discover Your Career Path"
   cards:
-    - image: "images/services-project-guide.jpg"
+    - image: "images/assisted_learning_and_support.jpg"
       title: "Assisted Learning and Support"
       text: "Assisten learning, step by step guide"
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-interview-prep.png"
+    - image: "images/build_your_brand.jpg"
       title: "Build Your Professional Brand"
       text: "Resume Review | Mock Interviews"
       button:
         label: "Learn more"
         url: "#"
 
-    - image: "images/services-interview-prep.png"
+    - image: "images/career_development.jpg"
       title: "Career Developement | Stand out to Employer"
       text: "Portfolio Project | Create Your Own Website"
       button:

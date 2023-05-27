@@ -5,7 +5,7 @@ content:
   title: "Start your career transition now!!"
   text: "First 10 gets free service. as of now, 2/10 filled up"
 
-  image: "images/contact-me.gif"
+  # image: "images/contact-me.gif"
   button:
     label: "Let's talk"
     url: "#"
