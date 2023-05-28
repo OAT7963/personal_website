@@ -5,23 +5,43 @@ content:
   title: "How I can help you"
   text: "Discover Your Career Path"
   cards:
-    - image: "images/assisted_learning_and_support.jpg"
-      title: "Assisted Learning and Support"
-      text: "Assisten learning, step by step guide"
-      button:
-        label: "Learn more"
-        url: "/post/02_career/assisted_learning_and_support/"
-
     - image: "images/build_your_brand.jpg"
-      title: "Build Your Professional Brand"
-      text: "Resume Review | Mock Interviews"
+      title: "Career Discovery"
+      text: |
+        Quiz 
+        Discussion
+        Transition
+        4th point
+
       button:
-        label: "Learn more"
-        url: "/post/02_career/build_your_professional_brand/"
+        label: "RM20"
+        url: ""
 
     - image: "images/career_development.jpg"
-      title: "Career Developement"
-      text: "Portfolio Project | Create Your Own Website"
+      title: "Professional Image"
+      text: |
+        Cover Letter
+        Linkedin
+        Job Search
+        Interview Prep
+
+
       button:
-        label: "Learn more"
+        label: "RM50"
+        url: "/post/02_career/build_your_professional_brand/"
+
+    - image: "images/assisted_learning_and_support.jpg"
+      title: "Project Guidance"
+      text: |
+        End to End 
+        Discover 
+        Execute
+        Host online
+      button:
+        label: "RM150"
         url: "/post/02_career/career_development/"
+      
+
+
+
+
