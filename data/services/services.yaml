@@ -8,38 +8,44 @@ content:
     - image: "images/build_your_brand.jpg"
       title: "Career Discovery"
       text: |
-        Quiz 
+        [Quiz (pre-requisite)](https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit)
         Discussion
         Transition
-        4th point
+        Salary
 
       button:
-        label: "RM20"
+        label: "RM 30"
         url: ""
+      button2:
+        label: "Learn More"
+        url: "/post/services/"
 
     - image: "images/career_development.jpg"
       title: "Professional Image"
       text: |
-        Cover Letter
-        Linkedin
-        Job Search
+        Cover Letter, Resume and Linkedin Review
         Interview Prep
-
-
+        Mock Interview
       button:
-        label: "RM50"
-        url: "/post/02_career/build_your_professional_brand/"
+        label: "RM 50"
+        url: ""
+      button2:
+        label: "Learn More"
+        url: "/post/services/"
 
     - image: "images/assisted_learning_and_support.jpg"
       title: "Project Guidance"
       text: |
-        End to End 
-        Discover 
-        Execute
-        Host online
+        My Project Suggestions
+        Your Idea, My guidance
+        Idea Discovery
+        Documentations
       button:
-        label: "RM150"
-        url: "/post/02_career/career_development/"
+        label: "RM 150"
+        url: ""
+      button2:
+        label: "Learn More"
+        url: "/post/services/"
       
 
 

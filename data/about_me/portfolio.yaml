@@ -11,10 +11,10 @@ content:
       Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipis
 
     buttons: 
-      - label: "See live"
+      - label: ""
         url: "#"
 
-      - label: "Read more"
+      - label: ""
         url: "#"
 
   - image: "images/overcoming_uncertainty.jpg"
@@ -23,10 +23,10 @@ content:
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
-      - label: "See live"
+      - label: ""
         url: "#"
 
-      - label: "Read more"
+      - label: ""
         url: "#"
 
   - image: "images/degree_hopping.jpg"
@@ -35,10 +35,10 @@ content:
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
-      - label: "See live"
+      - label: ""
         url: "#"
 
-      - label: "Read more"
+      - label: ""
         url: "#"
 
   - image: "images/performing.jpg"
@@ -47,8 +47,8 @@ content:
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
 
     buttons: 
-      - label: "See live"
+      - label: ""
         url: "#"
 
-      - label: "Read more"
+      - label: ""
         url: "#"

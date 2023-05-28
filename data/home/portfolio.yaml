@@ -18,7 +18,7 @@ content:
 
     buttons: 
       - label: "Career Quiz"
-        url: "#"
+        url: "https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit"
 
       - label: "Read more"
         url: "#"
@@ -33,7 +33,7 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "#"
+        url: "/post/services/"
 
       # - label: "Read more"
       #   url: "#"
@@ -50,7 +50,7 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "#"
+        url: "/post/services/"
 
       # - label: "Read more"
       #   url: "#"
@@ -65,9 +65,9 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "#"
+        url: "/post/services/"
 
-      - label: "My Portfolio"
+      - label: ""
         url: "#"
 
   - image: "images/6.png"
@@ -79,7 +79,7 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "#"
+        url: "/post/services/"
 
       # - label: "Read more"
       #   url: "#"

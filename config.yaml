@@ -26,7 +26,7 @@ params:
   social:
     dribbble: "#"
     instagram: "#"
-    facebook: "#"
+    # facebook: "#"
     twitter: "#"
 
   location:

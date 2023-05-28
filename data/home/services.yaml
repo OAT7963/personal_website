@@ -5,23 +5,49 @@ content:
   title: "How I can help you"
   text: "Discover Your Career Path"
   cards:
-    - image: "images/assisted_learning_and_support.jpg"
-      title: "Assisted Learning and Support"
-      text: "Assisten learning, step by step guide"
-      button:
-        label: "Learn more"
-        url: "/post/02_career/assisted_learning_and_support/"
-
     - image: "images/build_your_brand.jpg"
-      title: "Build Your Professional Brand"
-      text: "Resume Review | Mock Interviews"
+      title: "Career Discovery"
+      text: |
+        [Quiz (pre-requisite)](https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit)
+        Discussion
+        Transition
+        Salary
+
       button:
-        label: "Learn more"
-        url: "/post/02_career/build_your_professional_brand/"
+        label: "RM 30"
+        url: ""
+      button2:
+        label: "Learn More"
+        url: "/post/services/"
 
     - image: "images/career_development.jpg"
-      title: "Career Developement"
-      text: "Portfolio Project | Create Your Own Website"
+      title: "Professional Image"
+      text: |
+        Cover Letter, Resume and Linkedin Review
+        Interview Prep
+        Mock Interview
       button:
-        label: "Learn more"
-        url: "/post/02_career/career_development/"
+        label: "RM 50"
+        url: ""
+      button2:
+        label: "Learn More"
+        url: "/post/services/"
+
+    - image: "images/assisted_learning_and_support.jpg"
+      title: "Project Guidance"
+      text: |
+        My Project Suggestions
+        Your Idea, My guidance
+        Idea Discovery
+        Documentations
+      button:
+        label: "RM 150"
+        url: ""
+      button2:
+        label: "Learn More"
+        url: "/post/services/"
+      
+
+
+
+

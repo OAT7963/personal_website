@@ -29,7 +29,6 @@
  -->
 
 
-
  <section class="section services py-5">
   <div class="container">
     <div class="row justify-content-center pb-5">
@@ -49,11 +48,14 @@
               {{ with .text }}
                 <ul class="card-text text-black-61 pb-4">
                   {{ range (split (trim . "\n") "\n") }}
-                    <li>{{ . | safeHTML }}</li>
+                    <li>{{ . | markdownify }}</li>
                   {{ end }}
                 </ul>
               {{ end }}
-              {{ with .button }}<a class="btn btn-outline-primary px-4" href="{{ .url }}">{{ .label }}</a>{{ end }}
+              <div class="d-flex justify-content-center gap-2">
+                {{ with .button }}<a class="btn btn-outline-primary px-4" href="{{ .url }}">{{ .label }}</a>{{ end }}
+                {{ with .button2 }}<a class="btn btn-success px-4" href="{{ .url }}">{{ .label }}</a>{{ end }}
+              </div>
             </div>
           </div>
         </div>
