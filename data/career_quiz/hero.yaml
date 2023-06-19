@@ -9,7 +9,7 @@ content:
     # url: "#"
 
   buttonSecondary:
-    label: "Click here to take your Career Quiz"
+    label: "Click here to start your Career Discovery"
     url: "https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit"
 
 

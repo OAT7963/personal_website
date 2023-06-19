@@ -6,9 +6,9 @@ content:
     pretitle: "2008 - 2012"
     title: "Navigating High School: Discovering Career Purpose"
     text: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Quisque sed euismod quis sit gravida pharetra sit. 
-      Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipis
+      Traditional System of forcing Students to memorize instead of understanding
+      Teachers who don't incorporate problem solving methodologies in our learning
+      Insufficient Guidance and subject on Diverse Career Opportunities
 
     buttons: 
       - label: ""
@@ -20,7 +20,10 @@ content:
   - image: "images/overcoming_uncertainty.jpg"
     pretitle: "2013 - 2017"
     title: "Post-SPM Exploration: Overcoming Uncertainty"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    text: |
+      Lack of exposure to large variety of subjects offered
+      The difficulty of specializing (Algorithm / Physics) early or dive into diverse course (Information System)
+      Questions needed to prepare to ask University board (public or private universities? Local or Abroad)
 
     buttons: 
       - label: ""
@@ -32,7 +35,11 @@ content:
   - image: "images/degree_hopping.jpg"
     pretitle: "2019 - 2020"
     title: "Degree Hopping to Success: Environmental Science Journey"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    text: |
+      Tried out 1 or 2 semester of business subjects - dropped out
+      Tried out 1 semester of Actuarial science - dropped out
+      Tried out 2 years of Mech Eng - dropped out
+      Finally completing Environmental Science 
 
     buttons: 
       - label: ""
@@ -42,9 +49,14 @@ content:
         url: "#"
 
   - image: "images/performing.jpg"
-    pretitle: "2019 - 2020"
+    pretitle: "2019 - Present"
     title: "Performing in the Tech Sector with no formal tech background"
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    text: |
+      Thanks to MCO - Spent 3 months 13-14 hours a day learning coding on my own (Youtube Videos)
+      3 months of learning helped me produced 2 personal projects
+      Interned at a Data Science Start Up (Computer Vision, Automatin Financial Statemets, Learning Management System)
+      Joined Intel as Asia Retail Partner Solution Lead
+      Joined Xsolla as Business Analyst
 
     buttons: 
       - label: ""

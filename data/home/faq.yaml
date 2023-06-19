@@ -1,0 +1,19 @@
+enabled: true
+id: "faq"
+
+content:
+  title: "Frequently Asked Questions"
+  faqs:
+    - question: "What services do you offer?"
+      answer: "I offer a range of services, including resume review, interview preparation, career guidance, industry transition, and targeted upskilling"
+    - question: "Who is Ong Aun Ter"
+      answer: "Ong Aun Ter is a professional who has transitioned from environmental science to the tech industry. He now uses his experience to guide others in their career journeys in the tech sector"
+    - question: "Do I need a background in technology to use your services?"
+      answer: "No, my services are designed to help individuals from all backgrounds navigate the tech sector and stand out in a crowded job market."
+
+    - question: "What is the process of working with you?"
+      answer: "We follow a five-step process: discovering your career path, assisted learning and support, building your professional brand, standing out to employers, and upskilling and reskilling"
+    - question: "What are the costs of your services?"
+      answer: "The costs vary depending on the service. For example, the career discovery service is RM 30, professional image services are RM 50, and project guidance is RM 150"
+    - question: "How can I contact you?"
+      answer: "You can reach out to us via the contact form on our website or directly at ongaunter@gmail.com."

@@ -8,10 +8,10 @@ content:
     - image: "images/build_your_brand.jpg"
       title: "Career Discovery"
       text: |
-        [Quiz (pre-requisite)](https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit)
-        Discussion
-        Transition
-        Salary
+        [Quiz (pre-requisite)](https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit)  
+        Discussion  
+        Transition  
+        Salary  
 
       button:
         label: "RM 30"

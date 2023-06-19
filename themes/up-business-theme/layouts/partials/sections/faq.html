@@ -1,0 +1,15 @@
+{{ with .Site.Data.home.faq }}
+<section class="section faq py-5" style="background-color: #f9f9f9;">
+  <div class="container">
+    <h2 class="section-title text-center" style="color: #228B22; font-size: 2em;">{{ .content.title }}</h2>
+
+    {{ range .content.faqs }}
+    <details class="faq-item" style="border: 2px solid #228B22; margin: 1em 0; padding: 1em; border-radius: 5px;">
+      <summary class="faq-question" style="color: #228B22; cursor: pointer; text-align: center; font-size: 1em;">{{ .question }}</summary>
+      <p class="faq-answer text-center" style="color: #000; font-size: 1em;">{{ .answer }}</p>
+    </details>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}

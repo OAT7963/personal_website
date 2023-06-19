@@ -4,12 +4,11 @@ title : "Services"
 date : "2019-03-09"
 description : "Choose one and let's talk, fill up the contact form!"
 images: ["images/data_wrangling.jpg"]
-categories: 
-  - Data Wrangling
+---
 ---
 ## Career Discovery
----
-**Price:** RM 30
+
+**Price:** RM30
 
 **Services:** Conversation
 
@@ -20,10 +19,13 @@ categories:
 - Transition
 - Salary
 
+**[Contact me if intereted](/message_me/)**
+
+---
 
 
 ## Professional Image
----
+
 **Price:** RM50 per bullet point (you can choose 1-2 or even 3, up to you)
 
 **Services:** Review Resume, re-write, restructure and Linkedin Profile Review. Interview prep 
@@ -34,10 +36,14 @@ categories:
 - Interview prep (this include a b and c)
 - Mock Interview
 
-## Project Guidance
----
 
-**Price:** RM150
+**[Contact me if intereted](/message_me/)**
+
+---
+## Project Guidance
+
+
+**Price:** RM150 (negotiable)
 
 **Services:** Project Guidance, Idea generation, Documentation, more below 
 
@@ -54,6 +60,9 @@ categories:
   - Understanding your audience
 
 
+**[Contact me if intereted](/message_me/)**
+
+---
 
 
 

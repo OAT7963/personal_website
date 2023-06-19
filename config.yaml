@@ -33,7 +33,7 @@ params:
     - "Kuala Lumpur, Malaysia"
 
   contact:
-    - "ongaunter@gamail.com"
+    - "ongaunter@gmail.com"
 
   # copyright: "© 2022 Up Business All Rights Reserved"
 
@@ -47,7 +47,7 @@ menus:
       url: "/about_me"
       weight: 2
 
-    - name: "Career Quiz"
+    - name: "Career Discovery"
       url: "/career_quiz"
       weight: 3
 

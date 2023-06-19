@@ -17,11 +17,11 @@ content:
       Quality Assurance Engineer?
 
     buttons: 
-      - label: "Career Quiz"
+      - label: "Career Discovery"
         url: "https://docs.google.com/forms/d/19dcuUD42uvOWgMpaKiMiDu-ardMLPP_WcJbIiYExI5c/edit"
 
       - label: "Read more"
-        url: "#"
+        url: "services"
 
   - image: "images/3.png"
     pretitle: "Step 2"
@@ -33,7 +33,7 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "/post/services/"
+        url: "services"
 
       # - label: "Read more"
       #   url: "#"
@@ -50,7 +50,7 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "/post/services/"
+        url: "services"
 
       # - label: "Read more"
       #   url: "#"
@@ -65,7 +65,7 @@ content:
 
     buttons: 
       - label: "Read More"
-        url: "/post/services/"
+        url: "services"
 
       - label: ""
         url: "#"
@@ -74,12 +74,12 @@ content:
     pretitle: "Step 5"
     title: "Upskill & Reskill"
     text: |
-      Stay up-tp-date on latest industry Developments
+      Stay up-to-date on latest industry Developments
       Break into a new role
 
     buttons: 
       - label: "Read More"
-        url: "/post/services/"
+        url: "services"
 
       # - label: "Read more"
       #   url: "#"

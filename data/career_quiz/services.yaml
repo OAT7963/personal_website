@@ -2,7 +2,7 @@ enabled: true
 id: "services"
 
 content:
-  title: "Don't Agree with your Quiz Results? Don't Worry!"
+  title: "Still not sure? Maybe These Articles Can Help You"
   text: "I'm here to provide personalised advice to explore alternative tech roles that may align with your preferences and abilities."
   cards:
     - image: "images/tech_career_existence.jpg"
