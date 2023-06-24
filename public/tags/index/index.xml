@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Ong Aun Ter</title>
-    <link>https://ongaunter.netlify.app/tags/index/</link>
+    <link>https://ongaunter.com/tags/index/</link>
     <description>Recent content in index on Ong Aun Ter</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ongaunter.netlify.app/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ongaunter.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://ongaunter.netlify.app/post/</link>
+      <link>https://ongaunter.com/post/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/</guid>
+      <guid>https://ongaunter.com/post/</guid>
       <description></description>
     </item>
     

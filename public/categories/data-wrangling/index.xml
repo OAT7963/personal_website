@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Wrangling on Ong Aun Ter</title>
-    <link>https://ongaunter.netlify.app/categories/data-wrangling/</link>
+    <link>https://ongaunter.com/categories/data-wrangling/</link>
     <description>Recent content in Data Wrangling on Ong Aun Ter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ongaunter.netlify.app/categories/data-wrangling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ongaunter.com/categories/data-wrangling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Wrangling</title>
-      <link>https://ongaunter.netlify.app/post/demo_files/data_wrangling/</link>
+      <link>https://ongaunter.com/post/demo_files/data_wrangling/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/demo_files/data_wrangling/</guid>
+      <guid>https://ongaunter.com/post/demo_files/data_wrangling/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     

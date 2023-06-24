@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Quality on Ong Aun Ter</title>
-    <link>https://ongaunter.netlify.app/categories/data-quality/</link>
+    <link>https://ongaunter.com/categories/data-quality/</link>
     <description>Recent content in Data Quality on Ong Aun Ter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ongaunter.netlify.app/categories/data-quality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ongaunter.com/categories/data-quality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7 Common Data Quality Issues and How to Fix Them</title>
-      <link>https://ongaunter.netlify.app/post/01_data_quality/seven_common_dq/</link>
+      <link>https://ongaunter.com/post/01_data_quality/seven_common_dq/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ongaunter.netlify.app/post/01_data_quality/seven_common_dq/</guid>
+      <guid>https://ongaunter.com/post/01_data_quality/seven_common_dq/</guid>
       <description>Common Data Quality Issues Data quality issues are a significant obstacle to the efficiency and reliability of any data-driven process. Seven of the most common problems include inaccurate data, incomplete data, outdated data, duplicate data, inconsistent data, non-compliant data, and poorly defined data.</description>
     </item>
     

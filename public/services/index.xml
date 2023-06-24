@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Ong Aun Ter</title>
-    <link>https://ongaunter.netlify.app/services/</link>
+    <link>https://ongaunter.com/services/</link>
     <description>Recent content in Services on Ong Aun Ter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Apr 2023 18:03:56 +0530</lastBuildDate><atom:link href="https://ongaunter.netlify.app/services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Apr 2023 18:03:56 +0530</lastBuildDate><atom:link href="https://ongaunter.com/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Services</title>
-      <link>https://ongaunter.netlify.app/services/services/</link>
+      <link>https://ongaunter.com/services/services/</link>
       <pubDate>Sat, 15 Apr 2023 18:03:56 +0530</pubDate>
       
-      <guid>https://ongaunter.netlify.app/services/services/</guid>
+      <guid>https://ongaunter.com/services/services/</guid>
       <description></description>
     </item>
     
