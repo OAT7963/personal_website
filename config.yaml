@@ -24,10 +24,10 @@ params:
     faviconColor: "#000000"
 
   social:
-    dribbble: "#"
-    instagram: "#"
+    dribbble: "https://www.linkedin.com/in/ong-aun-ter-a4a68982/"
+    instagram: "https://www.instagram.com/aunterong_/?hl=en"
     # facebook: "#"
-    twitter: "#"
+    twitter: "https://twitter.com/aunterong"
 
   location:
     - "Kuala Lumpur, Malaysia"
