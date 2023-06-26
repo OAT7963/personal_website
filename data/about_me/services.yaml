@@ -15,7 +15,7 @@ content:
 
       button:
         label: "RM 30"
-        url: ""
+        url: "/message_me/"
       button2:
         label: "Learn More"
         url: "/post/services/"
@@ -28,7 +28,7 @@ content:
         Mock Interview
       button:
         label: "RM 50"
-        url: ""
+        url: "/message_me/"
       button2:
         label: "Learn More"
         url: "/post/services/"
@@ -42,7 +42,7 @@ content:
         Documentations
       button:
         label: "RM 150"
-        url: ""
+        url: "/message_me/"
       button2:
         label: "Learn More"
         url: "/post/services/"
