@@ -31,7 +31,7 @@ images: ["images/data_wrangling.jpg"]
   
    
 
-**[Contact me if intereted](/message_me/)**
+**[Contact me if interested](/message_me/)**
 
 ---
 
@@ -56,7 +56,7 @@ images: ["images/data_wrangling.jpg"]
 - Mock Interview
   : - In a mock interview, you'll get a chance to practice everything you've learned in a simulated interview environment. I'll provide realistic interview questions and provide detailed feedback on your answers, helping you refine your approach. This can build confidence, reduce interview anxiety, and help you make the best possible impression when the real interview comes around.
 
-**[Contact me if intereted](/message_me/)**
+**[Contact me if interested](/message_me/)**
 
 ---
 ## End-to-End Project Guidance
@@ -85,7 +85,7 @@ images: ["images/data_wrangling.jpg"]
 
 
 
-**[Contact me if intereted](/message_me/)**
+**[Contact me if interested](/message_me/)**
 
 ---
 

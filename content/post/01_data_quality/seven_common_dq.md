@@ -9,9 +9,11 @@ categories:
 
 
 ---
-
 ## Common Data Quality Issues
 ---
+
+<!-- ![Alternative text for your image](/images/interview.jpg) -->
+
 
 Data quality issues are a significant obstacle to the efficiency and reliability of any data-driven process. Seven of the most common problems include inaccurate data, incomplete data, outdated data, duplicate data, inconsistent data, non-compliant data, and poorly defined data. Inaccurate data can be caused by many factors, such as human error or system glitches. Incomplete data may result from a failure to capture all necessary information, while outdated data can occur when information isn't updated regularly. Duplicate data is created when the same information is stored in multiple places, and inconsistent data arises when different systems or formats are used to store data. Non-compliant data refers to information that does not meet regulatory or business requirements, and poorly defined data lacks clarity or context, making it hard to use effectively.
 
